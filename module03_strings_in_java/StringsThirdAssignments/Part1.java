@@ -89,14 +89,123 @@ public class Part1 {
     }
   }
 
-  public static void main(String[] args) {
-    // StorageResource genes = getAllGenes("ACGATGCAGTAAACGATGTCATAGATGTGAACG");
-    // StorageResource genes = getAllGenes("ATGTAAGATGCCCTAGT");
-    // StorageResource genes = getAllGenes("ACGATGCAGTAA");
-    StorageResource genes = getAllGenes("ACGTAA");
+  public static double cgRatio(String dna) {
+    int countCG = 0;
+    for (char c : dna.toCharArray()) {
+      if (c == 'C' || c == 'c' || c == 'G' || c == 'g') {
+        countCG += 1;
+      }
+    }
+    return (double) countCG / dna.length();
+  }
 
-    for (String gene : genes.data()) {
+  public static int countCTG(String dna) {
+    int currentIndex = 0;
+    int count = 0;
+    while (true) {
+      currentIndex = dna.indexOf("CTG", currentIndex);
+
+      if (currentIndex == -1) {
+        return count;
+      }
+      count += 1;
+      currentIndex += 3;
+    }
+  }
+
+  public static void processGenes(StorageResource sr) {
+    int countGenes9 = 0;
+    int countCG3_5 = 0;
+    int longestGene = 0;
+    for (String s : sr.data()) {
+      // print all the Strings in sr that are longer than 9 characters
+      if (s.length() > 9) {
+        countGenes9 += 1;
+        System.out.println(s);
+      }
+      if (cgRatio(s) > 0.35) {
+        // print the Strings in sr whose C-G-ratio is higher than 0.35
+        System.out.println(s);
+        countCG3_5 += 1;
+      }
+      if (s.length() > longestGene) {
+        longestGene = s.length();
+      }
+    }
+    // print the number of Strings in sr that are longer than 9 characters
+    System.out.println("countGenes9");
+    System.out.println(countGenes9);
+    // print the number of strings in sr whose C-G-ratio is higher than 0.35
+    System.out.println("countGenes3_5");
+    System.out.println(countCG3_5);
+    // print the length of the longest gene in sr\
+    System.out.println("LONGEST");
+
+    System.out.println(longestGene);
+  }
+
+  public static void testProcessGenes() {
+    // Test 1: DNA with genes longer than 9 characters
+    System.out.println("\nTest 1: DNA with genes longer than 9 characters");
+    StorageResource sr1 = getAllGenes("ATGATCTAATTTATGCTGCAACGGTGAAGA");
+    System.out.println("Genes found:");
+    for (String gene : sr1.data()) {
       System.out.println(gene);
     }
+    System.out.println("Processing genes:");
+    processGenes(sr1);
+
+    // Test 2: DNA with no genes longer than 9 characters
+    System.out.println("\nTest 2: DNA with no genes longer than 9 characters");
+    StorageResource sr2 = getAllGenes("ATGATCTAATATGGTGTAA");
+    System.out.println("Genes found:");
+    for (String gene : sr2.data()) {
+      System.out.println(gene);
+    }
+    System.out.println("Processing genes:");
+    processGenes(sr2);
+
+    // // Test 3: DNA with genes having C-G-ratio > 0.35
+    // System.out.println("\nTest 3: DNA with genes having C-G-ratio > 0.35");
+    // StorageResource sr3 = getAllGenes("ATGCCGTAAATGCGGTAG");
+    // System.out.println("Genes found:");
+    // for (String gene : sr3.data()) {
+    // System.out.println(gene);
+    // }
+    // System.out.println("Processing genes:");
+    // processGenes(sr3);
+
+    // Test 4: DNA with genes having C-G-ratio < 0.35
+    System.out.println("\nTest 4: DNA with genes having C-G-ratio < 0.35");
+    StorageResource sr4 = getAllGenes("ATGTAAATGTAA");
+    System.out.println("Genes found:");
+    for (String gene : sr4.data()) {
+      System.out.println(gene);
+    }
+    System.out.println("Processing genes:");
+    processGenes(sr4);
+
+    // Test 5: Additional test case
+    System.out.println("\nTest 5: Additional test case");
+    StorageResource sr5 = getAllGenes("ATGGGGTAATATGCCCTAA");
+    System.out.println("Genes found:");
+    for (String gene : sr5.data()) {
+      System.out.println(gene);
+    }
+    System.out.println("Processing genes:");
+    processGenes(sr5);
+
+    // // Process the brca1line.fa file
+    // System.out.println("\nProcessing brca1line.fa");
+    // FileResource fr = new
+    // FileResource("./module03_strings_in_java/dna/brca1line.fa");
+    // String dna = fr.asString();
+    // StorageResource geneList = getAllGenes(dna);
+    // System.out.println("Processing genes from brca1line.fa:");
+    // processGenes(geneList);
+  }
+
+  public static void main(String[] args) {
+    testProcessGenes();
   }
 }
