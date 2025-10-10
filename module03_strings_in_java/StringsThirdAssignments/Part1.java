@@ -119,7 +119,7 @@ public class Part1 {
     int longestGene = 0;
     for (String s : sr.data()) {
       // print all the Strings in sr that are longer than 9 characters
-      if (s.length() > 9) {
+      if (s.length() > 60) {
         countGenes9 += 1;
         System.out.println(s);
       }
@@ -165,47 +165,17 @@ public class Part1 {
     System.out.println("Processing genes:");
     processGenes(sr2);
 
-    // // Test 3: DNA with genes having C-G-ratio > 0.35
-    // System.out.println("\nTest 3: DNA with genes having C-G-ratio > 0.35");
-    // StorageResource sr3 = getAllGenes("ATGCCGTAAATGCGGTAG");
-    // System.out.println("Genes found:");
-    // for (String gene : sr3.data()) {
-    // System.out.println(gene);
-    // }
-    // System.out.println("Processing genes:");
-    // processGenes(sr3);
-
-    // Test 4: DNA with genes having C-G-ratio < 0.35
-    System.out.println("\nTest 4: DNA with genes having C-G-ratio < 0.35");
-    StorageResource sr4 = getAllGenes("ATGTAAATGTAA");
-    System.out.println("Genes found:");
-    for (String gene : sr4.data()) {
-      System.out.println(gene);
-    }
-    System.out.println("Processing genes:");
-    processGenes(sr4);
-
-    // Test 5: Additional test case
-    System.out.println("\nTest 5: Additional test case");
-    StorageResource sr5 = getAllGenes("ATGGGGTAATATGCCCTAA");
-    System.out.println("Genes found:");
-    for (String gene : sr5.data()) {
-      System.out.println(gene);
-    }
-    System.out.println("Processing genes:");
-    processGenes(sr5);
-
-    // // Process the brca1line.fa file
-    // System.out.println("\nProcessing brca1line.fa");
-    // FileResource fr = new
-    // FileResource("./module03_strings_in_java/dna/brca1line.fa");
-    // String dna = fr.asString();
-    // StorageResource geneList = getAllGenes(dna);
-    // System.out.println("Processing genes from brca1line.fa:");
-    // processGenes(geneList);
   }
 
   public static void main(String[] args) {
-    testProcessGenes();
+    // testProcessGenes();
+    FileResource fr = new FileResource("./module03_strings_in_java/dna/GRch38dnapart.fa");
+    String dna = fr.asString();
+    System.out.println("COUNTCTG " + countCTG(dna));
+    System.out.println("DNA is length: " + dna.length());
+    StorageResource genes = getAllGenes(dna);
+    System.out.println("SIZE " + genes.size());
+    processGenes(genes);
+
   }
 }
