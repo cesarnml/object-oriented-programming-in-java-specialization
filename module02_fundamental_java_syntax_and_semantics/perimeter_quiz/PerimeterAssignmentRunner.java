@@ -1,3 +1,5 @@
+package module02_fundamental_java_syntax_and_semantics.perimeter_quiz;
+
 import edu.duke.*;
 import java.io.File;
 

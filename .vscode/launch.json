@@ -1,0 +1,70 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Part1",
+      "request": "launch",
+      "mainClass": "module03_strings_in_java.StringsThirdAssignments.Part1",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "Debugging2",
+      "request": "launch",
+      "mainClass": "module03_strings_in_java.StringsSecondAssignments.Debugging2",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "Debugging1",
+      "request": "launch",
+      "mainClass": "module03_strings_in_java.StringsSecondAssignments.Debugging1",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "Part3",
+      "request": "launch",
+      "mainClass": "module03_strings_in_java.StringsSecondAssignments.Part3",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "Part2",
+      "request": "launch",
+      "mainClass": "module03_strings_in_java.StringsSecondAssignments.Part2",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "Part1",
+      "request": "launch",
+      "mainClass": "module03_strings_in_java.StringsSecondAssignments.Part1",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "Part1",
+      "request": "launch",
+      "mainClass": "module03_strings_in_java.StringsFirstAssignments.Part1",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "Part4",
+      "request": "launch",
+      "mainClass": "module03_strings_in_java.StringsFirstAssignments.Part4",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    }
+  ]
+}
