@@ -15,6 +15,26 @@
   - [x] ~~_Module 02: Fundamental Java Syntax and Semantics (401 minutes)_~~ [2025-10-09]
   - [x] ~~_Module 03: Strings in Java (335 minutes)_~~ [2025-10-10]
   - [ ] Module 04: CSV Files and Basic Statistics in Java (171 minutes)
+    - [ ] Module Learning Outcomes
+    - [ ] CSV Data: Comma Separated Values
+    - [ ] Using CSV Libraries
+    - [ ] Which Countries Export...? Developing an Algorithm
+    - [ ] Which Countries Export...? Translating into Code
+    - [ ] CSVExport Summary
+    - [ ] Programming Exercise: Parsing Export Data
+    - [ ] Which Countries Export...? (Practice Assignment)
+    - [ ] Hottest Day in a Year: Comma Separated Values
+    - [ ] Converting Strings to Numbers
+    - [ ] Maximum Temperature: Developing an Algorithm
+    - [ ] Java for Nothing - null: When you Don't Have an Object
+    - [ ] Maximum Temperature: Translating into Code
+    - [ ] Maximum Temperature: Testing Code
+    - [ ] Maximum Temperature from Multiple Datasets
+    - [ ] Maximum Temperature Refactored
+    - [ ] CSVMax: Summary
+    - [ ] Programming Exercise: Parsing Weather Data
+    - [ ] Weather Data (Practice Assignment)
+    - [ ] CSV Files and Basic Statistics in Java (Graded Assignment)
   - [ ] Module 05: MiniProject - Baby Names (143 minutes)
 - [ ] Course 02 - Java Programming: Arrays, Lists, and Structured Data (14 hours)
 - [ ] Course 03 - Object Oriented Programming in Java (40 hours)
@@ -33,3 +53,5 @@
 - [Course Class Documentation](https://www.dukelearntoprogram.com/course2/doc/)
 
 #### Module 03 - Strings in Java
+
+- Bunch of String pattern matching, basic loops (for, while), and conditionals
