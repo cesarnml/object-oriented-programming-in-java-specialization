@@ -23,7 +23,7 @@
     - [x] ~~_Which Countries Export...? Translating into Code_~~ [2025-10-11]
     - [x] ~~_CSVExport Summary_~~ [2025-10-11]
     - [x] ~~_Programming Exercise: Parsing Export Data_~~ [2025-10-11]
-    - [ ] Which Countries Export...? (Practice Assignment)
+    - [x] ~~_Which Countries Export...? (Practice Assignment)_~~ [2025-10-11]
     - [ ] Hottest Day in a Year: Comma Separated Values
     - [ ] Converting Strings to Numbers
     - [ ] Maximum Temperature: Developing an Algorithm

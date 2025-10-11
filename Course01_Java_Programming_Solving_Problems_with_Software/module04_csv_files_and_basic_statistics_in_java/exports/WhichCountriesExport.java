@@ -78,17 +78,17 @@ public class WhichCountriesExport {
 	}
 
 	public static void tester() {
-		FileResource fr = new FileResource(FILE_PATH_SMALL_TEST);
+		FileResource fr = new FileResource(FILE_PATH);
 		CSVParser parser = fr.getCSVParser();
-		String result = countryInfo(parser, "Malawi");
-		System.out.println(result);
-		parser = fr.getCSVParser();
-		listExportersTwoProducts(parser, "gold", "diamonds");
-		parser = fr.getCSVParser();
-		String exportItem = "gold";
-		int exporterCount = numberOfExporters(parser, exportItem);
-		System.out.println("Number of Exporters (" + exportItem + "): " + exporterCount);
-		parser = fr.getCSVParser();
+		// String result = countryInfo(parser, "Nauru");
+		// System.out.println(result);
+		// listExportersTwoProducts(parser, "sugar", "sugar");
+		// parser = fr.getCSVParser();
+		// String exportItem = "sugar";
+		// int exporterCount = numberOfExporters(parser, exportItem);
+		// System.out.println("Number of Exporters (" + exportItem + "): " +
+		// exporterCount);
+		// parser = fr.getCSVParser();
 		bigExporters(parser, "$999,999,999");
 	}
 
