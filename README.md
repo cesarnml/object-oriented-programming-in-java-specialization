@@ -24,16 +24,16 @@
     - [x] ~~_CSVExport Summary_~~ [2025-10-11]
     - [x] ~~_Programming Exercise: Parsing Export Data_~~ [2025-10-11]
     - [x] ~~_Which Countries Export...? (Practice Assignment)_~~ [2025-10-11]
-    - [ ] Hottest Day in a Year: Comma Separated Values
-    - [ ] Converting Strings to Numbers
-    - [ ] Maximum Temperature: Developing an Algorithm
-    - [ ] Java for Nothing - null: When you Don't Have an Object
-    - [ ] Maximum Temperature: Translating into Code
-    - [ ] Maximum Temperature: Testing Code
-    - [ ] Maximum Temperature from Multiple Datasets
-    - [ ] Maximum Temperature Refactored
-    - [ ] CSVMax: Summary
-    - [ ] Programming Exercise: Parsing Weather Data
+    - [x] ~~_Hottest Day in a Year: Comma Separated Values_~~ [2025-10-11]
+    - [x] ~~_Converting Strings to Numbers_~~ [2025-10-11]
+    - [x] ~~_Maximum Temperature: Developing an Algorithm_~~ [2025-10-11]
+    - [x] ~~_Java for Nothing - null: When you Don't Have an Object_~~ [2025-10-11]
+    - [x] ~~_Maximum Temperature: Translating into Code_~~ [2025-10-11]
+    - [x] ~~_Maximum Temperature: Testing Code_~~ [2025-10-11]
+    - [x] ~~_Maximum Temperature from Multiple Datasets_~~ [2025-10-11]
+    - [x] ~~_Maximum Temperature Refactored_~~ [2025-10-11]
+    - [x] ~~_CSVMax: Summary_~~ [2025-10-11]
+    - [x] ~~_Programming Exercise: Parsing Weather Data_~~ [2025-10-11]
     - [ ] Weather Data (Practice Assignment)
     - [ ] CSV Files and Basic Statistics in Java (Graded Assignment)
   - [ ] Module 05: MiniProject - Baby Names (143 minutes)

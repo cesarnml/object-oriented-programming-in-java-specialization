@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ParsingWeatherData",
+      "request": "launch",
+      "mainClass": "Course01_Java_Programming_Solving_Problems_with_Software.module04_csv_files_and_basic_statistics_in_java.ParsingWeatherData",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "CSVMax",
+      "request": "launch",
+      "mainClass": "Course01_Java_Programming_Solving_Problems_with_Software.module04_csv_files_and_basic_statistics_in_java.hottestTempManyRefactored.CSVMax",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "CSVMax",
+      "request": "launch",
+      "mainClass": "Course01_Java_Programming_Solving_Problems_with_Software.module04_csv_files_and_basic_statistics_in_java.hottestTempMany.CSVMax",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "CSVMax",
+      "request": "launch",
+      "mainClass": "Course01_Java_Programming_Solving_Problems_with_Software.module04_csv_files_and_basic_statistics_in_java.hottestTemp.CSVMax",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
       "name": "WhichCountriesExport",
       "request": "launch",
       "mainClass": "Course01_Java_Programming_Solving_Problems_with_Software.module04_csv_files_and_basic_statistics_in_java.exports.WhichCountriesExport",
