@@ -7,6 +7,7 @@
       - [Module 01 - Introduction to the Course](#module-01---introduction-to-the-course)
       - [Module 02 - Fundamental Java Syntax and Semantics](#module-02---fundamental-java-syntax-and-semantics)
       - [Module 03 - Strings in Java](#module-03---strings-in-java)
+      - [Module 04 - CSV Files and Basic Statistics in Java](#module-04---csv-files-and-basic-statistics-in-java)
 
 ## Courses
 
@@ -15,7 +16,7 @@
   - [x] ~~_Module 02: Fundamental Java Syntax and Semantics (401 minutes)_~~ [2025-10-09]
   - [x] ~~_Module 03: Strings in Java (335 minutes)_~~ [2025-10-10]
   - [ ] Module 04: CSV Files and Basic Statistics in Java (171 minutes)
-    - [ ] Module Learning Outcomes
+    - [x] ~~_Module Learning Outcomes_~~ [2025-10-11]
     - [ ] CSV Data: Comma Separated Values
     - [ ] Using CSV Libraries
     - [ ] Which Countries Export...? Developing an Algorithm
@@ -36,6 +37,21 @@
     - [ ] Weather Data (Practice Assignment)
     - [ ] CSV Files and Basic Statistics in Java (Graded Assignment)
   - [ ] Module 05: MiniProject - Baby Names (143 minutes)
+    - [ ] Baby Names MiniProject: Overview
+    - [ ] Baby Names MiniProject: Data Overview
+    - [ ] Baby Names MiniProject: Total Births
+    - [ ] MiniProject Exercise Guide
+    - [ ] Baby Names (Graded Assignment)
+    - [ ] Extend Your Program
+    - [ ] Batch Grayscale: Converting Many Files
+    - [ ] Grayscale Algorithm: Seven Step Approach
+    - [ ] Image Iterable in BlueJ: Grayscale
+    - [ ] Batch Processing Grayscale
+    - [ ] Saving Images with New Names
+    - [ ] Batch Grayscale Summary: Converting Many Files
+    - [ ] Programming Exercise: Batch Grayscale and Image Inversion
+    - [ ] Batch Grayscale Images (Graded Assignment)
+    - [ ] Share your learning experience
 - [ ] Course 02 - Java Programming: Arrays, Lists, and Structured Data (14 hours)
 - [ ] Course 03 - Object Oriented Programming in Java (40 hours)
 - [ ] Course 04 - Data Structures and Performance (41 hours)
@@ -51,7 +67,23 @@
 #### Module 02 - Fundamental Java Syntax and Semantics
 
 - [Course Class Documentation](https://www.dukelearntoprogram.com/course2/doc/)
+- Module Learning Outcomes:
+  1. Download and run BlueJ (Java IDE for the course; hides a lot of tooling complexity)
+  2. Access the documentation for the Java libraries designed for the course
+  3. Edit, compile, and run a Java program
+  4. Construct methods, variables, if/else statements, and for each loops in Java
+  5. Use `Iterables` to run a program that iterates over multiple lines in document or webpage or multiple files in a directory
 
 #### Module 03 - Strings in Java
 
-- Bunch of String pattern matching, basic loops (for, while), and conditionals
+- Bunch of String pattern matching, basic loops (`for`, `while`), and conditionals (>, <, ==, !=, &&, ||)
+
+#### Module 04 - CSV Files and Basic Statistics in Java
+
+- Module Learning Outcomes
+  1. Use Apache Commons CSV package
+  2. Access data from one or many CSV files in Java
+  3. Convert strings into numbers
+  4. Use of `null`
+  5. Design algorithms to process CSV data
+-
