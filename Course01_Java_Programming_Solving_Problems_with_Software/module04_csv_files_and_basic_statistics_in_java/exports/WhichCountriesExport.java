@@ -82,14 +82,14 @@ public class WhichCountriesExport {
 		CSVParser parser = fr.getCSVParser();
 		// String result = countryInfo(parser, "Nauru");
 		// System.out.println(result);
-		// listExportersTwoProducts(parser, "sugar", "sugar");
+		// listExportersTwoProducts(parser, "cotton", "flowers");
 		// parser = fr.getCSVParser();
-		// String exportItem = "sugar";
+		// String exportItem = "cocoa";
 		// int exporterCount = numberOfExporters(parser, exportItem);
 		// System.out.println("Number of Exporters (" + exportItem + "): " +
 		// exporterCount);
-		// parser = fr.getCSVParser();
-		bigExporters(parser, "$999,999,999");
+		parser = fr.getCSVParser();
+		bigExporters(parser, "$999,999,999,999");
 	}
 
 	public static void main(String[] args) {

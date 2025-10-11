@@ -189,10 +189,10 @@ public class ParsingWeatherData {
 
   public static void main(String[] args) {
     // testColdestHourInFile();
-    // testFileWithColdestTemperature();
+    testFileWithColdestTemperature();
     // testLowestHumidityInFile();
     // testLowestHumidityInManyFiles();
     // testAverageTemperatureInFile();
-    testAverageTemperatureWithHighHumidityInFile();
+    // testAverageTemperatureWithHighHumidityInFile();
   }
 }

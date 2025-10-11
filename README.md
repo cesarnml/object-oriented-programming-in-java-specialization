@@ -15,7 +15,7 @@
   - [x] ~~_Module 01 - Introduction to the Course (25 minutes)_~~ [2025-10-08]
   - [x] ~~_Module 02: Fundamental Java Syntax and Semantics (401 minutes)_~~ [2025-10-09]
   - [x] ~~_Module 03: Strings in Java (335 minutes)_~~ [2025-10-10]
-  - [ ] Module 04: CSV Files and Basic Statistics in Java (171 minutes)
+  - [x] ~~_Module 04: CSV Files and Basic Statistics in Java (171 minutes)_~~ [2025-10-11]
     - [x] ~~_Module Learning Outcomes_~~ [2025-10-11]
     - [x] ~~_CSV Data: Comma Separated Values_~~ [2025-10-11]
     - [x] ~~_Using CSV Libraries_~~ [2025-10-11]
@@ -35,7 +35,7 @@
     - [x] ~~_CSVMax: Summary_~~ [2025-10-11]
     - [x] ~~_Programming Exercise: Parsing Weather Data_~~ [2025-10-11]
     - [x] ~~_Weather Data (Practice Assignment)_~~ [2025-10-11]
-    - [ ] CSV Files and Basic Statistics in Java (Graded Assignment)
+    - [x] ~~_CSV Files and Basic Statistics in Java (Graded Assignment)_~~ [2025-10-11]
   - [ ] Module 05: MiniProject - Baby Names (143 minutes)
     - [ ] Baby Names MiniProject: Overview
     - [ ] Baby Names MiniProject: Data Overview
