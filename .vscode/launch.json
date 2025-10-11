@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "WhichCountriesExport",
+      "request": "launch",
+      "mainClass": "Course01_Java_Programming_Solving_Problems_with_Software.module04_csv_files_and_basic_statistics_in_java.exports.WhichCountriesExport",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
       "name": "DebugFindStop",
       "request": "launch",
       "mainClass": "Course01_Java_Programming_Solving_Problems_with_Software.module03_strings_in_java.DebugFindStop",

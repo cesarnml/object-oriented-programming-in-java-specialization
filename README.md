@@ -18,11 +18,11 @@
   - [ ] Module 04: CSV Files and Basic Statistics in Java (171 minutes)
     - [x] ~~_Module Learning Outcomes_~~ [2025-10-11]
     - [x] ~~_CSV Data: Comma Separated Values_~~ [2025-10-11]
-    - [ ] Using CSV Libraries
-    - [ ] Which Countries Export...? Developing an Algorithm
-    - [ ] Which Countries Export...? Translating into Code
-    - [ ] CSVExport Summary
-    - [ ] Programming Exercise: Parsing Export Data
+    - [x] ~~_Using CSV Libraries_~~ [2025-10-11]
+    - [x] ~~_Which Countries Export...? Developing an Algorithm_~~ [2025-10-11]
+    - [x] ~~_Which Countries Export...? Translating into Code_~~ [2025-10-11]
+    - [x] ~~_CSVExport Summary_~~ [2025-10-11]
+    - [x] ~~_Programming Exercise: Parsing Export Data_~~ [2025-10-11]
     - [ ] Which Countries Export...? (Practice Assignment)
     - [ ] Hottest Day in a Year: Comma Separated Values
     - [ ] Converting Strings to Numbers
