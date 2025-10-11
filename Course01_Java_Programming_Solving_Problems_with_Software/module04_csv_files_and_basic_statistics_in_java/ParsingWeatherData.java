@@ -12,6 +12,7 @@ import edu.duke.FileResource;
 
 public class ParsingWeatherData {
   private static String FILEPATH = "Course01_Java_Programming_Solving_Problems_with_Software/module04_csv_files_and_basic_statistics_in_java/nc_weather/2014/weather-2014-10-17.csv";
+  private static String FILEPATH_PRACTICE = "Course01_Java_Programming_Solving_Problems_with_Software/module04_csv_files_and_basic_statistics_in_java/nc_weather/2014/weather-2014-04-01.csv";
   private static String DATE_UTC = "DateUTC";
   private static String TEMP = "TemperatureF";
   private static String HUMIDITY = "Humidity";
@@ -80,7 +81,7 @@ public class ParsingWeatherData {
   }
 
   public static void testColdestHourInFile() {
-    CSVParser parser = new FileResource(FILEPATH).getCSVParser();
+    CSVParser parser = new FileResource(FILEPATH_PRACTICE).getCSVParser();
     CSVRecord record = coldestHourInFile(parser);
     Double lowestTemp = Double.parseDouble(record.get(TEMP));
     System.out.println("coldest temperature was " + lowestTemp + " at " + record.get(DATE_UTC));

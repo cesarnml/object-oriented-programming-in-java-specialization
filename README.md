@@ -34,7 +34,7 @@
     - [x] ~~_Maximum Temperature Refactored_~~ [2025-10-11]
     - [x] ~~_CSVMax: Summary_~~ [2025-10-11]
     - [x] ~~_Programming Exercise: Parsing Weather Data_~~ [2025-10-11]
-    - [ ] Weather Data (Practice Assignment)
+    - [x] ~~_Weather Data (Practice Assignment)_~~ [2025-10-11]
     - [ ] CSV Files and Basic Statistics in Java (Graded Assignment)
   - [ ] Module 05: MiniProject - Baby Names (143 minutes)
     - [ ] Baby Names MiniProject: Overview
