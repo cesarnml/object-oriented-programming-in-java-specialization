@@ -1,4 +1,4 @@
-package module03_strings_in_java.StringsThirdAssignments;
+package Course01_Java_Programming_Solving_Problems_with_Software.module03_strings_in_java.StringsThirdAssignments;
 
 import edu.duke.*;
 
@@ -169,7 +169,8 @@ public class Part1 {
 
   public static void main(String[] args) {
     // testProcessGenes();
-    FileResource fr = new FileResource("./module03_strings_in_java/dna/GRch38dnapart.fa");
+    FileResource fr = new FileResource(
+        "Course01_Java_Programming_Solving_Problems_with_Software/module03_strings_in_java/dna/GRch38dnapart.fa");
     String dna = fr.asString();
     System.out.println("COUNTCTG " + countCTG(dna));
     System.out.println("DNA is length: " + dna.length());

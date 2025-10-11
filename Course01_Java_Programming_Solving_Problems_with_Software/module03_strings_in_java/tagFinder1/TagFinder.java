@@ -1,10 +1,9 @@
+package Course01_Java_Programming_Solving_Problems_with_Software.module03_strings_in_java.tagFinder1;
 
 /**
  * Finds a protein within a strand of DNA represented as a string of c,g,t,a
- * letters.
- * A protein is a part of the DNA strand marked by start and stop codons (DNA
- * triples)
- * that is a multiple of 3 letters long.
+ * letters. A protein is a part of the DNA strand marked by start and stop
+ * codons (DNA triples) that is a multiple of 3 letters long.
  *
  * @author Duke Software Team
  */

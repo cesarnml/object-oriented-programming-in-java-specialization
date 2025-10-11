@@ -1,4 +1,4 @@
-package module03_strings_in_java.StringsFirstAssignments;
+package Course01_Java_Programming_Solving_Problems_with_Software.module03_strings_in_java.StringsFirstAssignments;
 
 public class Part3 {
   public boolean twoOccurrences(String stringA, String stringB) {
@@ -53,21 +53,16 @@ public class Part3 {
     String stringB4 = "CATCATCAT";
     boolean expected4 = true; // three occurrences still count as two or more
 
-    System.out.println(
-        "twoOccurrences(\"" + stringA1 + "\", \"" + stringB1 + "\") => " + twoOccurrences(stringA1, stringB1)
-            + " expected: " + expected1);
-    System.out.println(
-        "twoOccurrences(\"" + stringA2 + "\", \"" + stringB2 + "\") => " + twoOccurrences(stringA2, stringB2)
-            + " expected: " + expected2);
-    System.out.println(
-        "twoOccurrences(\"" + stringA3 + "\", \"" + stringB3 + "\") => " + twoOccurrences(stringA3, stringB3)
-            + " expected: " + expected3);
-    System.out.println(
-        "twoOccurrences(\"" + stringA4 + "\", \"" + stringB4 + "\") => " + twoOccurrences(stringA4, stringB4)
-            + " expected: " + expected4);
-    System.out.println(
-        "twoOccurrences(\"" + stringAOverlap + "\", \"" + stringBOverlap + "\") => "
-            + twoOccurrences(stringAOverlap, stringBOverlap) + " expected: " + expectedOverlap);
+    System.out.println("twoOccurrences(\"" + stringA1 + "\", \"" + stringB1 + "\") => "
+        + twoOccurrences(stringA1, stringB1) + " expected: " + expected1);
+    System.out.println("twoOccurrences(\"" + stringA2 + "\", \"" + stringB2 + "\") => "
+        + twoOccurrences(stringA2, stringB2) + " expected: " + expected2);
+    System.out.println("twoOccurrences(\"" + stringA3 + "\", \"" + stringB3 + "\") => "
+        + twoOccurrences(stringA3, stringB3) + " expected: " + expected3);
+    System.out.println("twoOccurrences(\"" + stringA4 + "\", \"" + stringB4 + "\") => "
+        + twoOccurrences(stringA4, stringB4) + " expected: " + expected4);
+    System.out.println("twoOccurrences(\"" + stringAOverlap + "\", \"" + stringBOverlap + "\") => "
+        + twoOccurrences(stringAOverlap, stringBOverlap) + " expected: " + expectedOverlap);
 
     String stringA5 = "an";
     String stringB5 = "banana";
@@ -81,15 +76,12 @@ public class Part3 {
     String stringB7 = "beta";
     String expectedLastPart3 = ""; // occurs at the end
 
-    System.out.println(
-        "lastPart(\"" + stringA5 + "\", \"" + stringB5 + "\") => \"" + lastPart(stringA5, stringB5)
-            + "\" expected: \"" + expectedLastPart1 + "\"");
-    System.out.println(
-        "lastPart(\"" + stringA6 + "\", \"" + stringB6 + "\") => \"" + lastPart(stringA6, stringB6)
-            + "\" expected: \"" + expectedLastPart2 + "\"");
-    System.out.println(
-        "lastPart(\"" + stringA7 + "\", \"" + stringB7 + "\") => \"" + lastPart(stringA7, stringB7)
-            + "\" expected: \"" + expectedLastPart3 + "\"");
+    System.out.println("lastPart(\"" + stringA5 + "\", \"" + stringB5 + "\") => \"" + lastPart(stringA5, stringB5)
+        + "\" expected: \"" + expectedLastPart1 + "\"");
+    System.out.println("lastPart(\"" + stringA6 + "\", \"" + stringB6 + "\") => \"" + lastPart(stringA6, stringB6)
+        + "\" expected: \"" + expectedLastPart2 + "\"");
+    System.out.println("lastPart(\"" + stringA7 + "\", \"" + stringB7 + "\") => \"" + lastPart(stringA7, stringB7)
+        + "\" expected: \"" + expectedLastPart3 + "\"");
   }
 
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package module03_strings_in_java.StringsFirstAssignments;
+package Course01_Java_Programming_Solving_Problems_with_Software.module03_strings_in_java.StringsFirstAssignments;
 
 public class Part1 {
   public String findSimpleGene(String dna) {

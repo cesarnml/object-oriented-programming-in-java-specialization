@@ -1,4 +1,4 @@
-package module03_strings_in_java.StringsSecondAssignments;
+package Course01_Java_Programming_Solving_Problems_with_Software.module03_strings_in_java.StringsSecondAssignments;
 
 public class Part3 {
   static int CODON_LENGTH = 3;

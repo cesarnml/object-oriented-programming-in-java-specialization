@@ -1,4 +1,4 @@
-package module03_strings_in_java.StringsSecondAssignments;
+package Course01_Java_Programming_Solving_Problems_with_Software.module03_strings_in_java.StringsSecondAssignments;
 
 import edu.duke.*;
 
@@ -72,16 +72,8 @@ public class Part1 {
   }
 
   public static void main(String[] args) {
-    String[] testStrings = {
-        "ACGTAA",
-        "ACGATGCAGTAA",
-        "ACGATGCAGTAGCAGTAACAG",
-        "ACGATGCAGCAGCAG",
-        "ACGATGCAGTAAACGATGTCATAGATGTGAACG",
-        "ACGATGTAACAGTAA",
-        "acgATGcagTAAacg",
-        "AATGCTAACTAGCTGACTAAT"
-    };
+    String[] testStrings = { "ACGTAA", "ACGATGCAGTAA", "ACGATGCAGTAGCAGTAACAG", "ACGATGCAGCAGCAG",
+        "ACGATGCAGTAAACGATGTCATAGATGTGAACG", "ACGATGTAACAGTAA", "acgATGcagTAAacg", "AATGCTAACTAGCTGACTAAT" };
 
     for (String test : testStrings) {
       System.out.println("Testing DNA: " + test);

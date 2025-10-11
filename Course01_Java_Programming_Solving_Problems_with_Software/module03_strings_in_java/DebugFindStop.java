@@ -1,4 +1,4 @@
-package module03_strings_in_java;
+package Course01_Java_Programming_Solving_Problems_with_Software.module03_strings_in_java;
 
 public class DebugFindStop {
   public static int findStopCodon(String dna, int startIndex, String stopCodon) {

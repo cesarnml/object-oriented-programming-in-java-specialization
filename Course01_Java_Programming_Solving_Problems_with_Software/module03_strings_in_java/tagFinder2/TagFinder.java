@@ -1,3 +1,4 @@
+package Course01_Java_Programming_Solving_Problems_with_Software.module03_strings_in_java.tagFinder2;
 
 /**
  * Finds a protein within a strand of DNA represented as a string of c,g,t,a letters.

@@ -1,4 +1,4 @@
-package module02_fundamental_java_syntax_and_semantics.perimeter_quiz;
+package Course01_Java_Programming_Solving_Problems_with_Software.module02_fundamental_java_syntax_and_semantics.perimeter_quiz;
 
 import edu.duke.*;
 import java.io.File;
