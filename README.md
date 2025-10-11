@@ -17,7 +17,7 @@
   - [x] ~~_Module 03: Strings in Java (335 minutes)_~~ [2025-10-10]
   - [ ] Module 04: CSV Files and Basic Statistics in Java (171 minutes)
     - [x] ~~_Module Learning Outcomes_~~ [2025-10-11]
-    - [ ] CSV Data: Comma Separated Values
+    - [x] ~~_CSV Data: Comma Separated Values_~~ [2025-10-11]
     - [ ] Using CSV Libraries
     - [ ] Which Countries Export...? Developing an Algorithm
     - [ ] Which Countries Export...? Translating into Code

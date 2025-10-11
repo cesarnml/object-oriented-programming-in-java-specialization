@@ -1,3 +1,5 @@
+package module03_strings_in_java;
+
 public class DebugFindStop {
   public static int findStopCodon(String dna, int startIndex, String stopCodon) {
     int lengthOfDna = dna.length();
