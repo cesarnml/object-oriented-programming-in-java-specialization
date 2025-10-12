@@ -12,6 +12,7 @@
 ## Courses
 
 - [ ] Course 01 - Java Programming: Solving Problems with Software (18 hours)
+
   - [x] ~~_Module 01 - Introduction to the Course (25 minutes)_~~ [2025-10-08]
   - [x] ~~_Module 02: Fundamental Java Syntax and Semantics (401 minutes)_~~ [2025-10-09]
   - [x] ~~_Module 03: Strings in Java (335 minutes)_~~ [2025-10-10]
@@ -37,10 +38,11 @@
     - [x] ~~_Weather Data (Practice Assignment)_~~ [2025-10-11]
     - [x] ~~_CSV Files and Basic Statistics in Java (Graded Assignment)_~~ [2025-10-11]
   - [ ] Module 05: MiniProject - Baby Names (143 minutes)
+
     - [x] ~~_Baby Names MiniProject: Overview_~~ [2025-10-12]
-    - [ ] Baby Names MiniProject: Data Overview
-    - [ ] Baby Names MiniProject: Total Births
-    - [ ] MiniProject Exercise Guide
+    - [x] ~~_Baby Names MiniProject: Data Overview_~~ [2025-10-12]
+    - [x] ~~_Baby Names MiniProject: Total Births_~~ [2025-10-12]
+    - [x] ~~_MiniProject Exercise Guide_~~ [2025-10-12]
     - [ ] Baby Names (Graded Assignment)
     - [ ] Extend Your Program
     - [ ] Batch Grayscale: Converting Many Files
@@ -52,6 +54,7 @@
     - [ ] Programming Exercise: Batch Grayscale and Image Inversion
     - [ ] Batch Grayscale Images (Graded Assignment)
     - [ ] Share your learning experience
+
 - [ ] Course 02 - Java Programming: Arrays, Lists, and Structured Data (14 hours)
 - [ ] Course 03 - Object Oriented Programming in Java (40 hours)
 - [ ] Course 04 - Data Structures and Performance (41 hours)
