@@ -33,20 +33,29 @@ public class GrayScaleConverter {
 
 	public static void selectAndConvert() {
 		DirectoryResource dr = new DirectoryResource();
+		int count = 0;
+		String parentDir = "";
 		for (File f : dr.selectedFiles()) {
+			parentDir = f.getParent();
 			ImageResource inImage = new ImageResource(f);
 			ImageResource gray = makeGray(inImage);
-			gray.draw();
+			String inImageFilename = inImage.getFileName();
+			System.out.println("Processing: " + inImageFilename);
+			gray.setFileName(parentDir + "/" + "gray-" + inImageFilename);
+			gray.save();
+			count += 1;
 		}
+		System.out.println(count == 0 ? "No images saved" : "Saved: " + count + " images to " + parentDir);
 	}
 
-	public static void testGray() {
+	public static void testMakeGray() {
 		ImageResource ir = new ImageResource();
 		ImageResource gray = makeGray(ir);
 		gray.draw();
 	}
 
 	public static void main(String[] args) {
-		testGray();
+		// testMakeGray();
+		selectAndConvert();
 	}
 }
