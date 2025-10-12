@@ -44,8 +44,8 @@
     - [x] ~~_Baby Names MiniProject: Total Births_~~ [2025-10-12]
     - [x] ~~_MiniProject Exercise Guide_~~ [2025-10-12]
     - [x] ~~_Baby Names (Graded Assignment)_~~ [2025-10-12]
-    - [ ] Extend Your Program
-    - [ ] Batch Grayscale: Converting Many Files
+    - [x] ~~_Extend Your Program_~~ [2025-10-12]
+    - [x] ~~_Batch Grayscale: Converting Many Files_~~ [2025-10-12]
     - [ ] Grayscale Algorithm: Seven Step Approach
     - [ ] Image Iterable in BlueJ: Grayscale
     - [ ] Batch Processing Grayscale
