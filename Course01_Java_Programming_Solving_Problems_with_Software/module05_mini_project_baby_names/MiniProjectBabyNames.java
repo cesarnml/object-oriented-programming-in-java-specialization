@@ -10,6 +10,7 @@ import edu.duke.FileResource;
 
 public class MiniProjectBabyNames {
   private static String PARENT_DIR = "Course01_Java_Programming_Solving_Problems_with_Software/module05_mini_project_baby_names/";
+  private static String GRADED_ASSIGNMENT_PATHNAME = "us_babynames/us_babynames_by_year/";
   private static int NAME = 0;
   private static int GENDER = 1;
   private static int COUNT = 2;
@@ -41,12 +42,12 @@ public class MiniProjectBabyNames {
   }
 
   public static void testTotalBirths() {
-    FileResource fr = new FileResource(PARENT_DIR + "us_babynames/us_babynames_test/yob2012short.csv");
+    FileResource fr = new FileResource(PARENT_DIR + GRADED_ASSIGNMENT_PATHNAME + "yob1905.csv");
     totalBirths(fr);
   }
 
   public static int getRank(int year, String name, String gender) {
-    String filePath = PARENT_DIR + "us_babynames/us_babynames_test/yob" + year + "short.csv";
+    String filePath = PARENT_DIR + GRADED_ASSIGNMENT_PATHNAME + "yob" + year + ".csv";
     FileResource fr = new FileResource(filePath);
     int rank = 0;
     for (CSVRecord rec : fr.getCSVParser(false)) {
@@ -61,14 +62,14 @@ public class MiniProjectBabyNames {
   }
 
   public static void testGetRank() {
-    int result = getRank(2012, "Mason", "F");
+    int result = getRank(1971, "Frank", "M");
     System.out.println(result);
   }
 
   public static String getName(int year, int rank, String gender) {
     String name = "NO_NAME";
     int currentRank = 0;
-    String filePath = PARENT_DIR + "us_babynames/us_babynames_test/yob" + year + "short.csv";
+    String filePath = PARENT_DIR + GRADED_ASSIGNMENT_PATHNAME + "yob" + year + ".csv";
 
     FileResource fr = new FileResource(filePath);
     CSVParser parser = fr.getCSVParser(false);
@@ -86,7 +87,7 @@ public class MiniProjectBabyNames {
   }
 
   public static void testGetName() {
-    String result = getName(2012, 6, "F");
+    String result = getName(1982, 450, "M");
     System.out.println(result);
   }
 
@@ -100,7 +101,7 @@ public class MiniProjectBabyNames {
   }
 
   public static void testWhatIsNameInYear() {
-    whatIsNameInYear("Isabella", 2012, 2014, "F");
+    whatIsNameInYear("Owen", 1974, 2014, "M");
   }
 
   public static int yearOfHighestRank(String name, String gender) {
@@ -129,7 +130,7 @@ public class MiniProjectBabyNames {
   }
 
   public static void testYearOfHighestRank() {
-    int result = yearOfHighestRank("Mason", "M");
+    int result = yearOfHighestRank("Mich", "M");
     System.out.println(result);
   }
 
@@ -151,7 +152,7 @@ public class MiniProjectBabyNames {
   }
 
   public static void testGetAverageRank() {
-    double result = getAverageRank("Jacob", "M");
+    double result = getAverageRank("Robert", "M");
     System.out.println(result);
   }
 
@@ -163,7 +164,7 @@ public class MiniProjectBabyNames {
     }
 
     int totalBirths = 0;
-    FileResource fr = new FileResource(PARENT_DIR + "us_babynames/us_babynames_test/yob" + year + "short.csv");
+    FileResource fr = new FileResource(PARENT_DIR + GRADED_ASSIGNMENT_PATHNAME + "yob" + year + ".csv");
 
     int currentRank = 0;
     for (CSVRecord row : fr.getCSVParser(false)) {
@@ -178,7 +179,7 @@ public class MiniProjectBabyNames {
   }
 
   public static void testGetTotalBirthsRankedHigher() {
-    int result = getTotalBirthsRankedHigher(2012, "Ethan", "M");
+    int result = getTotalBirthsRankedHigher(1990, "Drew", "M");
     System.out.println(result);
   }
 

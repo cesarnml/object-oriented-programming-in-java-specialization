@@ -43,7 +43,7 @@
     - [x] ~~_Baby Names MiniProject: Data Overview_~~ [2025-10-12]
     - [x] ~~_Baby Names MiniProject: Total Births_~~ [2025-10-12]
     - [x] ~~_MiniProject Exercise Guide_~~ [2025-10-12]
-    - [ ] Baby Names (Graded Assignment)
+    - [x] ~~_Baby Names (Graded Assignment)_~~ [2025-10-12]
     - [ ] Extend Your Program
     - [ ] Batch Grayscale: Converting Many Files
     - [ ] Grayscale Algorithm: Seven Step Approach
