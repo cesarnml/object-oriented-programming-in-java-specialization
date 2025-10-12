@@ -34,6 +34,7 @@ public class GrayScaleConverter {
 	public static void testGray() {
 		ImageResource ir = new ImageResource();
 		ImageResource gray = makeGray(ir);
+		ir.draw();
 		gray.draw();
 	}
 

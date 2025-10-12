@@ -1,6 +1,6 @@
-# Object Oriented Programming in Java Specialization
+# Object Oriented Programming in Java Specialization (~260 hours)
 
-- [Object Oriented Programming in Java Specialization](#object-oriented-programming-in-java-specialization)
+- [Object Oriented Programming in Java Specialization (~260 hours)](#object-oriented-programming-in-java-specialization-260-hours)
   - [Courses](#courses)
   - [Notes](#notes)
     - [Course 01 - Java Programming: Solving Problems with Software](#course-01---java-programming-solving-problems-with-software)
@@ -8,6 +8,15 @@
       - [Module 02 - Fundamental Java Syntax and Semantics](#module-02---fundamental-java-syntax-and-semantics)
       - [Module 03 - Strings in Java](#module-03---strings-in-java)
       - [Module 04 - CSV Files and Basic Statistics in Java](#module-04---csv-files-and-basic-statistics-in-java)
+      - [Module 05 - MiniProject: Baby Name \& Batch Grayscale and Image Inversion](#module-05---miniproject-baby-name--batch-grayscale-and-image-inversion)
+    - [Course 02 - Java Programming: Arrays, Lists, and Structured Data (14 hours)](#course-02---java-programming-arrays-lists-and-structured-data-14-hours)
+      - [Module 01 - Welcome (18 mins)](#module-01---welcome-18-mins)
+      - [Module 02 - Cryptography: Keeping Information Secret](#module-02---cryptography-keeping-information-secret)
+      - [Module 03 - GladLibs: Stories from Templates (3 hours)](#module-03---gladlibs-stories-from-templates-3-hours)
+      - [Module 04 - Web Server Logs: From Logs to Visits (3 hours)](#module-04---web-server-logs-from-logs-to-visits-3-hours)
+      - [Module 05 - MiniProject: Vigenere Cipher (2 hours)](#module-05---miniproject-vigenere-cipher-2-hours)
+    - [Course 03 - Object Oriented Programming in Java (40 hours)](#course-03---object-oriented-programming-in-java-40-hours)
+    - [Course 04 - Data Structures and Performance (41 hours)](#course-04---data-structures-and-performance-41-hours)
 
 ## Courses
 
@@ -47,15 +56,113 @@
     - [x] ~~_Extend Your Program_~~ [2025-10-12]
     - [x] ~~_Batch Grayscale: Converting Many Files_~~ [2025-10-12]
     - [x] ~~_Grayscale Algorithm: Seven Step Approach_~~ [2025-10-12]
-    - [ ] Image Iterable in BlueJ: Grayscale
-    - [ ] Batch Processing Grayscale
-    - [ ] Saving Images with New Names
-    - [ ] Batch Grayscale Summary: Converting Many Files
+    - [x] ~~_Image Iterable in BlueJ: Grayscale_~~ [2025-10-12]
+    - [x] ~~_Batch Processing Grayscale_~~ [2025-10-12]
+    - [x] ~~_Saving Images with New Names_~~ [2025-10-12]
+    - [x] ~~_Batch Grayscale Summary: Converting Many Files_~~ [2025-10-12]
     - [ ] Programming Exercise: Batch Grayscale and Image Inversion
     - [ ] Batch Grayscale Images (Graded Assignment)
     - [ ] Share your learning experience
 
 - [ ] Course 02 - Java Programming: Arrays, Lists, and Structured Data (14 hours)
+
+  - [ ] Module 01 - Welcome (18 mins)
+    - [ ] Welcome
+    - [ ] Programming Resources
+    - [ ] Report a problem with the course
+  - [ ] Module 02 - Cryptography: Keeping Information Secret
+    - [ ] Module Learning Outcomes / Resources
+    - [ ] A brief History of Cryptography
+    - [ ] Introduction
+    - [ ] Creating and Manipulating Strings
+    - [ ] Counting Loops
+    - [ ] Character Class
+    - [ ] Developing an Algorithm
+    - [ ] Translating into Code
+    - [ ] Testing and Debugging
+    - [ ] Summary
+    - [ ] Programming Exercise - Implementing the Caesar Cipher
+    - [ ] Implementing the Caesar Cipher (Practice Assignment)
+    - [ ] Introduction
+    - [ ] Arrays
+    - [ ] Random Numbers and Arrays
+    - [ ] Counting with Arrays
+    - [ ] Developing an Algorithm
+    - [ ] Summary
+    - [ ] Programming Exercise - Breaking the Caesar Cipher
+    - [ ] Breaking the Caesar Cipher (Practice Assignment)
+    - [ ] Introduction
+    - [ ] Rewriting with Encapsulation
+    - [ ] Fields
+    - [ ] Visibility
+    - [ ] Constructors
+    - [ ] Summary
+    - [ ] Programming Exercise - Object Oriented Caesar Cipher
+    - [ ] Object Oriented Caesar Cipher (Practice Assignment)
+    - [ ] Cryptography (Graded Assignment)
+    - [ ] End of Module Survey
+  - [ ] Module 03 - GladLibs: Stories from Templates (3 hours)
+
+    - [ ] Module Learning Outcomes/Resources
+    - [ ] Introduction
+    - [ ] High-level Design Concepts
+    - [ ] ArrayList
+    - [ ] ArrayList for Unique Words
+    - [ ] ArrayList Advantages and Issues
+    - [ ] Summary
+    - [ ] Programming Exercise - Telling a Random Story
+    - [ ] Telling A Random Story (Practice Assignment)
+    - [ ] Introduction
+    - [ ] Brittle Code
+    - [ ] Adding New Labels
+    - [ ] Programming Exercise - Using GladLibs
+    - [ ] HashMap
+    - [ ] HashMap for Unique Words
+    - [ ] HashMap for Flexible Design
+    - [ ] Summary
+    - [ ] Programming Exercise: Improving GladLibs
+    - [ ] Using and Improving GladLibs (Practice Assignment)
+    - [ ] GladLibs (Graded Assignment)
+
+  - [ ] Module 04 - Web Server Logs: From Logs to Visits (3 hours)
+    - [ ] Module Learning Outcomes / Resources
+    - [ ] Introduction
+    - [ ] Understanding Log Files
+    - [ ] LogEntry Class with toString
+    - [ ] Parsing Log Files
+    - [ ] Summary
+    - [ ] Programming Exercise: Reading Log Files
+    - [ ] Reading Log Files (Practice Assignment)
+    - [ ] Introduction
+    - [ ] Developing an Algorithm
+    - [ ] Translating to Code
+    - [ ] Equality
+    - [ ] Summary
+    - [ ] Programming Exercise: Finding Unique IP Addresses
+    - [ ] Finding Unique IP Addresses (Practice Assignment)
+    - [ ] Introduction
+    - [ ] Developing an Algorithm
+    - [ ] Translating to Code
+    - [ ] HashMap for Unique IPs
+    - [ ] Summary
+    - [ ] Programming Exercise: Counting Website Visits
+    - [ ] Counting Website Visits (Practice Assignment)
+    - [ ] Web Server Logs (Graded Assignment)
+  - [ ] Module 05 - MiniProject: Vigenere Cipher (2 hours)
+    - [ ] Module Resources (10 min)
+    - [ ] Introduction (2 min)
+    - [ ] Known Language and Key Length (5 min)
+    - [ ] Programming Exercise: Known Language and Key Length (10 min)
+    - [ ] Known Language and Key Length (Practice Assignment) (30 min)
+    - [ ] Unknown Key Length (4 min)
+    - [ ] Programming Exercise: Unknown Key Length (10 min)
+    - [ ] Unknown Key Length (Practice Assignment) (30 min)
+    - [ ] Unknown Language (4 min)
+    - [ ] Programming Exercise: Unknown Language, Unknown Key Length (10 min)
+    - [ ] Breaking the Vigenère Cipher (Graded Assignment) (30 min)
+    - [ ] Extend Your Program (10 min)
+    - [ ] Share your learning experience (10 min)
+
 - [ ] Course 03 - Object Oriented Programming in Java (40 hours)
 - [ ] Course 04 - Data Structures and Performance (41 hours)
 
@@ -89,4 +196,23 @@
   3. Convert strings into numbers
   4. Use of `null`
   5. Design algorithms to process CSV data
--
+
+#### Module 05 - MiniProject: Baby Name & Batch Grayscale and Image Inversion
+
+- More practice reading documentation and File IO processing and manipulation
+
+### Course 02 - Java Programming: Arrays, Lists, and Structured Data (14 hours)
+
+#### Module 01 - Welcome (18 mins)
+
+#### Module 02 - Cryptography: Keeping Information Secret
+
+#### Module 03 - GladLibs: Stories from Templates (3 hours)
+
+#### Module 04 - Web Server Logs: From Logs to Visits (3 hours)
+
+#### Module 05 - MiniProject: Vigenere Cipher (2 hours)
+
+### Course 03 - Object Oriented Programming in Java (40 hours)
+
+### Course 04 - Data Structures and Performance (41 hours)

@@ -3,6 +3,8 @@
  * 
  * @author Duke Software Team 
  */
+package Course01_Java_Programming_Solving_Problems_with_Software.module05_mini_project_baby_names.imageSaver;
+
 import edu.duke.*;
 import java.io.File;
 
