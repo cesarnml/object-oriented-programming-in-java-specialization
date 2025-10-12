@@ -3,33 +3,35 @@
  * 
  * @author Duke Software Team 
  */
+package Course01_Java_Programming_Solving_Problems_with_Software.module05_mini_project_baby_names.makeGrayBatch;
+
 import edu.duke.*;
 import java.io.*;
 
 public class GrayScaleConverter {
-	//I started with the image I wanted (inImage)
-	public ImageResource makeGray(ImageResource inImage) {
-		//I made a blank image of the same size
+	// I started with the image I wanted (inImage)
+	public static ImageResource makeGray(ImageResource inImage) {
+		// I made a blank image of the same size
 		ImageResource outImage = new ImageResource(inImage.getWidth(), inImage.getHeight());
-		//for each pixel in outImage
-		for (Pixel pixel: outImage.pixels()) {
-			//look at the corresponding pixel in inImage
+		// for each pixel in outImage
+		for (Pixel pixel : outImage.pixels()) {
+			// look at the corresponding pixel in inImage
 			Pixel inPixel = inImage.getPixel(pixel.getX(), pixel.getY());
-			//compute inPixel's red + inPixel's blue + inPixel's green
-			//divide that sum by 3 (call it average)
-			int average = (inPixel.getRed() + inPixel.getBlue() + inPixel.getGreen())/3;
-			//set pixel's red to average
+			// compute inPixel's red + inPixel's blue + inPixel's green
+			// divide that sum by 3 (call it average)
+			int average = (inPixel.getRed() + inPixel.getBlue() + inPixel.getGreen()) / 3;
+			// set pixel's red to average
 			pixel.setRed(average);
-			//set pixel's green to average
+			// set pixel's green to average
 			pixel.setGreen(average);
-			//set pixel's blue to average
+			// set pixel's blue to average
 			pixel.setBlue(average);
 		}
-		//outImage is your answer
+		// outImage is your answer
 		return outImage;
 	}
 
-	public void selectAndConvert () {
+	public static void selectAndConvert() {
 		DirectoryResource dr = new DirectoryResource();
 		for (File f : dr.selectedFiles()) {
 			ImageResource inImage = new ImageResource(f);
@@ -38,9 +40,13 @@ public class GrayScaleConverter {
 		}
 	}
 
-	public void testGray() {
+	public static void testGray() {
 		ImageResource ir = new ImageResource();
 		ImageResource gray = makeGray(ir);
 		gray.draw();
+	}
+
+	public static void main(String[] args) {
+		testGray();
 	}
 }

@@ -46,7 +46,7 @@
     - [x] ~~_Baby Names (Graded Assignment)_~~ [2025-10-12]
     - [x] ~~_Extend Your Program_~~ [2025-10-12]
     - [x] ~~_Batch Grayscale: Converting Many Files_~~ [2025-10-12]
-    - [ ] Grayscale Algorithm: Seven Step Approach
+    - [x] ~~_Grayscale Algorithm: Seven Step Approach_~~ [2025-10-12]
     - [ ] Image Iterable in BlueJ: Grayscale
     - [ ] Batch Processing Grayscale
     - [ ] Saving Images with New Names
