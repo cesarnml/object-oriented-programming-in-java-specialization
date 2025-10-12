@@ -20,7 +20,7 @@
 
 ## Courses
 
-- [ ] Course 01 - Java Programming: Solving Problems with Software (18 hours)
+- [x] ~~_Course 01 - Java Programming: Solving Problems with Software (18 hours)_~~ [2025-10-12]
 
   - [x] ~~_Module 01 - Introduction to the Course (25 minutes)_~~ [2025-10-08]
   - [x] ~~_Module 02: Fundamental Java Syntax and Semantics (401 minutes)_~~ [2025-10-09]
@@ -46,7 +46,7 @@
     - [x] ~~_Programming Exercise: Parsing Weather Data_~~ [2025-10-11]
     - [x] ~~_Weather Data (Practice Assignment)_~~ [2025-10-11]
     - [x] ~~_CSV Files and Basic Statistics in Java (Graded Assignment)_~~ [2025-10-11]
-  - [ ] Module 05: MiniProject - Baby Names (143 minutes)
+  - [x] ~~_Module 05: MiniProject - Baby Names (143 minutes)_~~ [2025-10-12]
 
     - [x] ~~_Baby Names MiniProject: Overview_~~ [2025-10-12]
     - [x] ~~_Baby Names MiniProject: Data Overview_~~ [2025-10-12]
@@ -60,9 +60,9 @@
     - [x] ~~_Batch Processing Grayscale_~~ [2025-10-12]
     - [x] ~~_Saving Images with New Names_~~ [2025-10-12]
     - [x] ~~_Batch Grayscale Summary: Converting Many Files_~~ [2025-10-12]
-    - [ ] Programming Exercise: Batch Grayscale and Image Inversion
-    - [ ] Batch Grayscale Images (Graded Assignment)
-    - [ ] Share your learning experience
+    - [x] ~~_Programming Exercise: Batch Grayscale and Image Inversion_~~ [2025-10-12]
+    - [x] ~~_Batch Grayscale Images (Graded Assignment)_~~ [2025-10-12]
+    - [x] ~~_Share your learning experience_~~ [2025-10-12]
 
 - [ ] Course 02 - Java Programming: Arrays, Lists, and Structured Data (14 hours)
 
