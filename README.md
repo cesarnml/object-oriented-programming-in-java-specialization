@@ -37,7 +37,7 @@
     - [x] ~~_Weather Data (Practice Assignment)_~~ [2025-10-11]
     - [x] ~~_CSV Files and Basic Statistics in Java (Graded Assignment)_~~ [2025-10-11]
   - [ ] Module 05: MiniProject - Baby Names (143 minutes)
-    - [ ] Baby Names MiniProject: Overview
+    - [x] ~~_Baby Names MiniProject: Overview_~~ [2025-10-12]
     - [ ] Baby Names MiniProject: Data Overview
     - [ ] Baby Names MiniProject: Total Births
     - [ ] MiniProject Exercise Guide
