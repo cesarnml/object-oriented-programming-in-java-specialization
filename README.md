@@ -66,12 +66,12 @@
 
 - [ ] Course 02 - Java Programming: Arrays, Lists, and Structured Data (14 hours)
 
-  - [ ] Module 01 - Welcome (18 mins)
-    - [ ] Welcome
-    - [ ] Programming Resources
-    - [ ] Report a problem with the course
+  - [x] ~~_Module 01 - Welcome (18 mins)_~~ [2025-10-13]
+    - [x] ~~_Welcome_~~ [2025-10-13]
+    - [x] ~~_Programming Resources_~~ [2025-10-13]
+    - [x] ~~_Report a problem with the course_~~ [2025-10-13]
   - [ ] Module 02 - Cryptography: Keeping Information Secret
-    - [ ] Module Learning Outcomes / Resources
+    - [x] ~~_Module Learning Outcomes / Resources_~~ [2025-10-13]
     - [ ] A brief History of Cryptography
     - [ ] Introduction
     - [ ] Creating and Manipulating Strings
@@ -204,6 +204,13 @@
 ### Course 02 - Java Programming: Arrays, Lists, and Structured Data (14 hours)
 
 #### Module 01 - Welcome (18 mins)
+
+- Module Learning Outcomes:
+  1. Combine String using concatenation (already practiced this extensive in the previous course 😮‍💨)
+  2. Build Strings within a Java Program using StringBuilder
+  3. Use arrays to store and manipulate collections of data
+  4. Refactor your programs for improved organization using OOP
+  5. Practice effective algorithm design
 
 #### Module 02 - Cryptography: Keeping Information Secret
 
