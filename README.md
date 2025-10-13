@@ -81,8 +81,8 @@
     - [x] ~~_Translating into Code_~~ [2025-10-13]
     - [x] ~~_Testing and Debugging_~~ [2025-10-13]
     - [x] ~~_Summary_~~ [2025-10-13]
-    - [ ] Programming Exercise - Implementing the Caesar Cipher
-    - [ ] Implementing the Caesar Cipher (Practice Assignment)
+    - [x] ~~_Programming Exercise - Implementing the Caesar Cipher_~~ [2025-10-13]
+    - [x] ~~_Implementing the Caesar Cipher (Practice Assignment)_~~ [2025-10-13]
     - [ ] Introduction
     - [ ] Arrays
     - [ ] Random Numbers and Arrays
