@@ -77,7 +77,7 @@
     - [x] ~~_Creating and Manipulating Strings_~~ [2025-10-13]
     - [x] ~~_Counting Loops_~~ [2025-10-13]
     - [x] ~~_Character Class_~~ [2025-10-13]
-    - [ ] Developing an Algorithm
+    - [x] ~~_Developing an Algorithm_~~ [2025-10-13]
     - [ ] Translating into Code
     - [ ] Testing and Debugging
     - [ ] Summary
