@@ -70,7 +70,7 @@
     - [x] ~~_Welcome_~~ [2025-10-13]
     - [x] ~~_Programming Resources_~~ [2025-10-13]
     - [x] ~~_Report a problem with the course_~~ [2025-10-13]
-  - [ ] Module 02 - Cryptography: Keeping Information Secret
+  - [ ] Module 02 - Cryptography: Keeping Information Secret (1 hour)
     - [x] ~~_Module Learning Outcomes / Resources_~~ [2025-10-13]
     - [x] ~~_A Brief History of Cryptography_~~ [2025-10-13]
     - [x] ~~_Introduction_~~ [2025-10-13]
