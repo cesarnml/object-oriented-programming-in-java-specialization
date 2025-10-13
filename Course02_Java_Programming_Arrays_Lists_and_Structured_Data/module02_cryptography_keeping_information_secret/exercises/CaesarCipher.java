@@ -28,7 +28,6 @@ public class CaesarCipher {
         if (!isUpperCase) {
           encryptedChar = Character.toLowerCase(encryptedChar);
         }
-
         encrypted.append(encryptedChar);
       } else {
         encrypted.append(currentChar);
