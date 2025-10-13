@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CharacterDemo",
+      "request": "launch",
+      "mainClass": "Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module02_cryptography_keeping_information_secret.CharacterDemo.CharacterDemo",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
       "name": "BatchInversions",
       "request": "launch",
       "mainClass": "Course01_Java_Programming_Solving_Problems_with_Software.module05_mini_project_baby_names.BatchInversions",

@@ -75,8 +75,8 @@
     - [x] ~~_A Brief History of Cryptography_~~ [2025-10-13]
     - [x] ~~_Introduction_~~ [2025-10-13]
     - [x] ~~_Creating and Manipulating Strings_~~ [2025-10-13]
-    - [ ] Counting Loops
-    - [ ] Character Class
+    - [x] ~~_Counting Loops_~~ [2025-10-13]
+    - [x] ~~_Character Class_~~ [2025-10-13]
     - [ ] Developing an Algorithm
     - [ ] Translating into Code
     - [ ] Testing and Debugging
@@ -213,6 +213,9 @@
   5. Practice effective algorithm design
 - `StringBuilder` class provides for an efficient construction of Strings
   - Provides a **mutable** sequence of characters
+  - Single quotes in Java create `char` primitive types. Double quotes in Java create `String` reference type.
+    - Example: `'a'` is a char primitive type
+    - Example: `"hello"` is a String reference type
 
 #### Module 02 - Cryptography: Keeping Information Secret
 
