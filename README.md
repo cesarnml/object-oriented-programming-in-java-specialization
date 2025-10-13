@@ -72,9 +72,9 @@
     - [x] ~~_Report a problem with the course_~~ [2025-10-13]
   - [ ] Module 02 - Cryptography: Keeping Information Secret
     - [x] ~~_Module Learning Outcomes / Resources_~~ [2025-10-13]
-    - [ ] A brief History of Cryptography
-    - [ ] Introduction
-    - [ ] Creating and Manipulating Strings
+    - [x] ~~_A Brief History of Cryptography_~~ [2025-10-13]
+    - [x] ~~_Introduction_~~ [2025-10-13]
+    - [x] ~~_Creating and Manipulating Strings_~~ [2025-10-13]
     - [ ] Counting Loops
     - [ ] Character Class
     - [ ] Developing an Algorithm
@@ -211,6 +211,8 @@
   3. Use arrays to store and manipulate collections of data
   4. Refactor your programs for improved organization using OOP
   5. Practice effective algorithm design
+- `StringBuilder` class provides for an efficient construction of Strings
+  - Provides a **mutable** sequence of characters
 
 #### Module 02 - Cryptography: Keeping Information Secret
 
