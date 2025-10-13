@@ -78,9 +78,9 @@
     - [x] ~~_Counting Loops_~~ [2025-10-13]
     - [x] ~~_Character Class_~~ [2025-10-13]
     - [x] ~~_Developing an Algorithm_~~ [2025-10-13]
-    - [ ] Translating into Code
-    - [ ] Testing and Debugging
-    - [ ] Summary
+    - [x] ~~_Translating into Code_~~ [2025-10-13]
+    - [x] ~~_Testing and Debugging_~~ [2025-10-13]
+    - [x] ~~_Summary_~~ [2025-10-13]
     - [ ] Programming Exercise - Implementing the Caesar Cipher
     - [ ] Implementing the Caesar Cipher (Practice Assignment)
     - [ ] Introduction
