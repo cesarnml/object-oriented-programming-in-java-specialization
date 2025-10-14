@@ -102,6 +102,6 @@ public class CaesarCipher {
 
   public static void main(String[] args) {
     // testEncrypt();
-    testEncryptTwoKeys();
+    // testEncryptTwoKeys();
   }
 }

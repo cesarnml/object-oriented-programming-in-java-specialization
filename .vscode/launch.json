@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CaesarBreaker",
+      "request": "launch",
+      "mainClass": "Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module02_cryptography_keeping_information_secret.exercises.CaesarBreaker",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
       "name": "WordLengths",
       "request": "launch",
       "mainClass": "Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module02_cryptography_keeping_information_secret.exercises.WordLengths",
