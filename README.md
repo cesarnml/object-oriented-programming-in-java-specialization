@@ -83,7 +83,7 @@
     - [x] ~~_Summary_~~ [2025-10-13]
     - [x] ~~_Programming Exercise - Implementing the Caesar Cipher_~~ [2025-10-13]
     - [x] ~~_Implementing the Caesar Cipher (Practice Assignment)_~~ [2025-10-13]
-    - [ ] Introduction
+    - [x] ~~_Introduction_~~ [2025-10-14]
     - [ ] Arrays
     - [ ] Random Numbers and Arrays
     - [ ] Counting with Arrays
