@@ -95,8 +95,8 @@
     - [x] ~~_Rewriting with Encapsulation_~~ [2025-10-14]
     - [x] ~~_Fields_~~ [2025-10-14]
     - [x] ~~_Visibility_~~ [2025-10-14]
-    - [ ] Constructors
-    - [ ] Summary
+    - [x] ~~_Constructors_~~ [2025-10-14]
+    - [x] ~~_Summary_~~ [2025-10-14]
     - [ ] Programming Exercise - Object Oriented Caesar Cipher
     - [ ] Object Oriented Caesar Cipher (Practice Assignment)
     - [ ] Cryptography (Graded Assignment)

@@ -3,15 +3,20 @@ package Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module02_cryp
 
 public class CaesarCipher {
   private static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  private int key;
 
-  public static String encrypt(String input, int key) {
+  public CaesarCipher(int key) {
+    this.key = key;
+  }
+
+  public String encrypt(String input) {
     if (input == null)
       return null;
 
     if (input.isBlank())
       return input;
 
-    String shiftedAlphabet = ALPHABET.substring(key) + ALPHABET.substring(0, key);
+    String shiftedAlphabet = ALPHABET.substring(this.key) + ALPHABET.substring(0, this.key);
     StringBuilder encrypted = new StringBuilder(input.length());
 
     for (int i = 0; i < input.length(); i++) {
@@ -36,15 +41,15 @@ public class CaesarCipher {
     return encrypted.toString();
   }
 
-  public static void testEncrypt() {
+  private void testEncrypt() {
     String testPhrase = "At noon be in the conference room with your hat on for a surprise party. YELL LOUD!";
     int testKey = 15;
-    String encrypted = encrypt(testPhrase, testKey);
+    String encrypted = this.encrypt(testPhrase);
     System.out.println("Message: " + testPhrase);
     System.out.println("key is " + testKey + "\n" + encrypted);
   }
 
-  public static String encryptTwoKeys(String input, int key1, int key2) {
+  public String encryptTwoKeys(String input, int key1, int key2) {
     if (input == null)
       return null;
 
@@ -81,7 +86,7 @@ public class CaesarCipher {
     return encrypted.toString();
   }
 
-  public static void testEncryptTwoKeys() {
+  private void testEncryptTwoKeys() {
     String testPhrase = "At noon be in the conference room with your hat on for a surprise party. YELL LOUD!";
     int key1 = 8;
     int key2 = 21;
