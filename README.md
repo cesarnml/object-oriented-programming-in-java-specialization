@@ -84,11 +84,11 @@
     - [x] ~~_Programming Exercise - Implementing the Caesar Cipher_~~ [2025-10-13]
     - [x] ~~_Implementing the Caesar Cipher (Practice Assignment)_~~ [2025-10-13]
     - [x] ~~_Introduction_~~ [2025-10-14]
-    - [ ] Arrays
-    - [ ] Random Numbers and Arrays
-    - [ ] Counting with Arrays
-    - [ ] Developing an Algorithm
-    - [ ] Summary
+    - [x] ~~_Arrays_~~ [2025-10-14]
+    - [x] ~~_Random Numbers and Arrays_~~ [2025-10-14]
+    - [x] ~~_Counting with Arrays_~~ [2025-10-14]
+    - [x] ~~_Developing an Algorithm_~~ [2025-10-14]
+    - [x] ~~_Summary_~~ [2025-10-14]
     - [ ] Programming Exercise - Breaking the Caesar Cipher
     - [ ] Breaking the Caesar Cipher (Practice Assignment)
     - [ ] Introduction
@@ -218,6 +218,13 @@
     - Example: `"hello"` is a String reference type
 
 #### Module 02 - Cryptography: Keeping Information Secret
+
+- An array in Java is created using `new type[n]`
+  - Once an array is created, its size does not change
+
+```java
+String[] names = new String[100];
+```
 
 #### Module 03 - GladLibs: Stories from Templates (3 hours)
 
