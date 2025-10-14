@@ -89,12 +89,12 @@
     - [x] ~~_Counting with Arrays_~~ [2025-10-14]
     - [x] ~~_Developing an Algorithm_~~ [2025-10-14]
     - [x] ~~_Summary_~~ [2025-10-14]
-    - [ ] Programming Exercise - Breaking the Caesar Cipher
-    - [ ] Breaking the Caesar Cipher (Practice Assignment)
-    - [ ] Introduction
-    - [ ] Rewriting with Encapsulation
-    - [ ] Fields
-    - [ ] Visibility
+    - [x] ~~_Programming Exercise - Breaking the Caesar Cipher_~~ [2025-10-14]
+    - [x] ~~_Breaking the Caesar Cipher (Practice Assignment)_~~ [2025-10-14]
+    - [x] ~~_Introduction_~~ [2025-10-14]
+    - [x] ~~_Rewriting with Encapsulation_~~ [2025-10-14]
+    - [x] ~~_Fields_~~ [2025-10-14]
+    - [x] ~~_Visibility_~~ [2025-10-14]
     - [ ] Constructors
     - [ ] Summary
     - [ ] Programming Exercise - Object Oriented Caesar Cipher
@@ -225,6 +225,11 @@
 ```java
 String[] names = new String[100];
 ```
+
+- **Classes** are \*\*types:
+  - Define what is in objects of that type
+- **Objects** are instances of a class
+  - `new` instantiates new objects from a class definition
 
 #### Module 03 - GladLibs: Stories from Templates (3 hours)
 

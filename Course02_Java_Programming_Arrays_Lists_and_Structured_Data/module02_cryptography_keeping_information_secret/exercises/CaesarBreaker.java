@@ -8,7 +8,9 @@ import edu.duke.FileResource;
  * cipher.
  */
 public class CaesarBreaker {
-  private static final String PARENT_DIR = "Course02_Java_Programming_Arrays_Lists_and_Structured_Data/module02_cryptography_keeping_information_secret/ProgrammingBreakingCaesarData/";
+  // private static final String PARENT_DIR =
+  // "Course02_Java_Programming_Arrays_Lists_and_Structured_Data/module02_cryptography_keeping_information_secret/ProgrammingBreakingCaesarData/";
+  private static final String PARENT_DIR = "Course02_Java_Programming_Arrays_Lists_and_Structured_Data/module02_cryptography_keeping_information_secret/PracticeBreakingCaesarData/";
   private static final int MAX_KEY = 26;
   private static final int E_INDEX = 4; // 'e' is the 5th letter (index 4) in the alphabet
   private static final String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
@@ -115,12 +117,20 @@ public class CaesarBreaker {
     System.out.println("Even character encryption key is: " + evenKey + " Corresponding decrypt key: " + evenDKey);
 
     return CaesarCipher.encryptTwoKeys(encrypted, oddDKey, evenDKey);
+    // return CaesarCipher.encryptTwoKeys(encrypted, 26 - 2, 26 - 20);
+
   }
 
   public static void testDecryptTwoKeys() {
-    String FILENAME = "wordsLotsOfEsEncrypted.txt";
+    // String FILENAME = "wordsLotsOfEsEncrypted.txt";
+    String FILENAME = "mysteryTwoKeysPractice.txt";
+
     FileResource fr = new FileResource(PARENT_DIR + FILENAME);
     String decrypted = decryptTwoKeys(fr.asString());
+    // String decrypted = decryptTwoKeys("Top ncmy qkff vi vguv vbg ycpx");
+    // String decrypted = decryptTwoKeys("Akag tjw Xibhr awoa aoee xakex znxag
+    // xwko");
+
     System.out.println("-------- Decrypted message---------");
     System.out.println(decrypted);
   }
