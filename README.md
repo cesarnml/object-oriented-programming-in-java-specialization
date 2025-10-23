@@ -70,7 +70,7 @@
     - [x] ~~_Welcome_~~ [2025-10-13]
     - [x] ~~_Programming Resources_~~ [2025-10-13]
     - [x] ~~_Report a problem with the course_~~ [2025-10-13]
-  - [ ] Module 02 - Cryptography: Keeping Information Secret (1 hour)
+  - [x] ~~_Module 02 - Cryptography: Keeping Information Secret (1 hour)_~~ [2025-10-23]
     - [x] ~~_Module Learning Outcomes / Resources_~~ [2025-10-13]
     - [x] ~~_A Brief History of Cryptography_~~ [2025-10-13]
     - [x] ~~_Introduction_~~ [2025-10-13]
@@ -97,10 +97,10 @@
     - [x] ~~_Visibility_~~ [2025-10-14]
     - [x] ~~_Constructors_~~ [2025-10-14]
     - [x] ~~_Summary_~~ [2025-10-14]
-    - [ ] Programming Exercise - Object Oriented Caesar Cipher
-    - [ ] Object Oriented Caesar Cipher (Practice Assignment)
-    - [ ] Cryptography (Graded Assignment)
-    - [ ] End of Module Survey
+    - [x] ~~_Programming Exercise - Object Oriented Caesar Cipher_~~ [2025-10-23]
+    - [x] ~~_Object Oriented Caesar Cipher (Practice Assignment)_~~ [2025-10-23]
+    - [x] ~~_Cryptography (Graded Assignment)_~~ [2025-10-23]
+    - [x] ~~_End of Module Survey_~~ [2025-10-23]
   - [ ] Module 03 - GladLibs: Stories from Templates (3 hours)
 
     - [ ] Module Learning Outcomes/Resources

@@ -126,10 +126,9 @@ public class CaesarBreaker {
     String FILENAME = "mysteryTwoKeysPractice.txt";
 
     FileResource fr = new FileResource(PARENT_DIR + FILENAME);
-    String decrypted = decryptTwoKeys(fr.asString());
+    // String decrypted = decryptTwoKeys(fr.asString());
     // String decrypted = decryptTwoKeys("Top ncmy qkff vi vguv vbg ycpx");
-    // String decrypted = decryptTwoKeys("Akag tjw Xibhr awoa aoee xakex znxag
-    // xwko");
+    String decrypted = decryptTwoKeys("Akag tjw Xibhr awoa aoee xakex znxag xwko");
 
     System.out.println("-------- Decrypted message---------");
     System.out.println(decrypted);

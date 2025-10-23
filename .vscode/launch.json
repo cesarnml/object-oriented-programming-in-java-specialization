@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TestCaesarCipherTwo",
+      "request": "launch",
+      "mainClass": "Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module02_cryptography_keeping_information_secret.exercises.TestCaesarCipherTwo",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
       "name": "TestCaesarCipher",
       "request": "launch",
       "mainClass": "Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module02_cryptography_keeping_information_secret.exercises.TestCaesarCipher",

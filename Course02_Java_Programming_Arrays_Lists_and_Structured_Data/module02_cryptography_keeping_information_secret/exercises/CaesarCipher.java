@@ -103,7 +103,7 @@ class TestCaesarCipher {
     String file = PARENT_DIR + "message2.txt";
     FileResource fr = new FileResource(file);
     String input = fr.asString();
-    int testKey = 18;
+    int testKey = 15;
     CaesarCipher cc = new CaesarCipher(testKey);
     String encrypted = cc.encrypt(input);
     System.out.println("----- message ----");
