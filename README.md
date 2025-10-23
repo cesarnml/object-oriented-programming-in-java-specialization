@@ -110,11 +110,11 @@
     - [x] ~~_ArrayList for Unique Words_~~ [2025-10-23]
     - [x] ~~_ArrayList Advantages and Issues_~~ [2025-10-23]
     - [x] ~~_Summary_~~ [2025-10-23]
-    - [ ] Programming Exercise - Telling a Random Story
-    - [ ] Telling A Random Story (Practice Assignment)
-    - [ ] Introduction
-    - [ ] Brittle Code
-    - [ ] Adding New Labels
+    - [x] ~~_Programming Exercise - Telling a Random Story_~~ [2025-10-23]
+    - [x] ~~_Telling A Random Story (Practice Assignment)_~~ [2025-10-23]
+    - [x] ~~_Introduction_~~ [2025-10-23]
+    - [x] ~~_Brittle Code_~~ [2025-10-23]
+    - [x] ~~_Adding New Labels_~~ [2025-10-23]
     - [ ] Programming Exercise - Using GladLibs
     - [ ] HashMap
     - [ ] HashMap for Unique Words

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import edu.duke.FileResource;
 
 public class WordFrequencies {
+  private static final String PARENT_DIR = "Course02_Java_Programming_Arrays_Lists_and_Structured_Data/module03_GladLibs_stories_from_templates/";
   private ArrayList<String> myWords;
   private ArrayList<Integer> myFreqs;
 
@@ -16,7 +17,11 @@ public class WordFrequencies {
     myWords.clear();
     myFreqs.clear();
 
-    FileResource resource = new FileResource();
+    // String filename = PARENT_DIR +
+    // "ProgrammingRandomStoryData/testwordfreqs.txt";
+    String filename = PARENT_DIR + "PracticeGladLibsData/likeit.txt";
+
+    FileResource resource = new FileResource(filename);
 
     for (String s : resource.words()) {
       s = s.toLowerCase();
@@ -31,23 +36,41 @@ public class WordFrequencies {
     }
   }
 
+  // Add getter methods for proper encapsulation
+  public int getUniqueCount() {
+    return myWords.size();
+  }
+
+  public String getWord(int index) {
+    return myWords.get(index);
+  }
+
+  public int getFrequency(int index) {
+    return myFreqs.get(index);
+  }
+
   public static void tester() {
     WordFrequencies wf = new WordFrequencies();
 
     wf.findUnique();
-    System.out.println("Number of unique words: " + wf.myWords.size());
-    for (int i = 0; i < wf.myWords.size(); i++) {
-      System.out.println(wf.myFreqs.get(i) + "\t" + wf.myWords.get(i));
-    }
+    System.out.println("Number of unique words: " + wf.getUniqueCount());
+    // for (int i = 0; i < wf.getUniqueCount(); i++) {
+    // System.out.println(wf.getFrequency(i) + "\t" + wf.getWord(i));
+    // }
     int index = wf.findIndexOfMax();
-    System.out.println(
-        "The word that occurs most often and its count are: " + wf.myWords.get(index) + " " + wf.myFreqs.get(index));
+    if (index != -1) {
+      System.out.println(
+          "The word that occurs most often and its count are: " + wf.getWord(index) + "\t" + wf.getFrequency(index));
+    }
   }
 
   public int findIndexOfMax() {
+    if (myFreqs.isEmpty()) {
+      return -1; // Handle empty case
+    }
     int max = myFreqs.get(0);
     int maxIndex = 0;
-    for (int k = 0; k < myFreqs.size(); k++) {
+    for (int k = 1; k < myFreqs.size(); k++) {
       if (myFreqs.get(k) > max) {
         max = myFreqs.get(k);
         maxIndex = k;
