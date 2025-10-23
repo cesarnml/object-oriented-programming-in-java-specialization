@@ -4,6 +4,7 @@ import edu.duke.*;
 import java.util.*;
 
 public class GladLib {
+	private ArrayList<String> usedList;
 	private ArrayList<String> adjectiveList;
 	private ArrayList<String> nounList;
 	private ArrayList<String> colorList;
@@ -11,20 +12,25 @@ public class GladLib {
 	private ArrayList<String> nameList;
 	private ArrayList<String> animalList;
 	private ArrayList<String> timeList;
+	private ArrayList<String> verbList;
+	private ArrayList<String> fruitList;
 
 	private Random myRandom;
 
 	private static String dataSourceURL = "http://dukelearntoprogram.com/course3/data";
-	private static String dataSourceDirectory = "data";
+	private static String parentDir = "Course02_Java_Programming_Arrays_Lists_and_Structured_Data/module03_GladLibs_stories_from_templates/GladLib/";
+	private static String dataSourceDirectory = parentDir + "data";
 
 	public GladLib() {
 		initializeFromSource(dataSourceDirectory);
 		myRandom = new Random();
+		usedList = new ArrayList<String>();
 	}
 
 	public GladLib(String source) {
 		initializeFromSource(source);
 		myRandom = new Random();
+		usedList = new ArrayList<String>();
 	}
 
 	private void initializeFromSource(String source) {
@@ -35,6 +41,8 @@ public class GladLib {
 		nameList = readIt(source + "/name.txt");
 		animalList = readIt(source + "/animal.txt");
 		timeList = readIt(source + "/timeframe.txt");
+		verbList = readIt(source + "/verb.txt");
+		fruitList = readIt(source + "/fruit.txt");
 	}
 
 	private String randomFrom(ArrayList<String> source) {
@@ -67,6 +75,12 @@ public class GladLib {
 		if (label.equals("number")) {
 			return "" + myRandom.nextInt(50) + 5;
 		}
+		if (label.equals("verb")) {
+			return randomFrom(verbList);
+		}
+		if (label.equals("fruit")) {
+			return randomFrom(fruitList);
+		}
 		return "**UNKNOWN**";
 	}
 
@@ -78,7 +92,17 @@ public class GladLib {
 		}
 		String prefix = w.substring(0, first);
 		String suffix = w.substring(last + 1);
-		String sub = getSubstitute(w.substring(first + 1, last));
+		String label = w.substring(first + 1, last);
+		String sub = getSubstitute(label);
+
+		// Bit of a hack to guard against infinite loops
+		int attempt = 0;
+		int maxAttempts = 100;
+		while (usedList.contains(sub) && attempt < maxAttempts) {
+			sub = getSubstitute(label);
+			attempt++;
+		}
+		usedList.add(sub);
 		return prefix + sub + suffix;
 	}
 
@@ -127,9 +151,14 @@ public class GladLib {
 	}
 
 	public void makeStory() {
+		usedList.clear();
 		System.out.println("\n");
-		String story = fromTemplate("data/madtemplate.txt");
+		String story = fromTemplate(parentDir + "data/madtemplate2.txt");
 		printOut(story, 60);
 	}
 
+	public static void main(String[] args) {
+		GladLib gl = new GladLib();
+		gl.makeStory();
+	}
 }

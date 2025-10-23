@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "GladLib",
+      "request": "launch",
+      "mainClass": "Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module03_GladLibs_stories_from_templates.GladLib.GladLib",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
       "name": "CharactersInPlay",
       "request": "launch",
       "mainClass": "Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module03_GladLibs_stories_from_templates.exercises.CharactersInPlay",
