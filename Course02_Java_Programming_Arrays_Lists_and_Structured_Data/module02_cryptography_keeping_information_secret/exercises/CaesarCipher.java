@@ -1,12 +1,19 @@
 
 package Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module02_cryptography_keeping_information_secret.exercises;
 
+import edu.duke.FileResource;
+
 public class CaesarCipher {
   private static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  private int key;
+  private static final int ALPHABET_COUNT = 26;
+  private int eKey;
+  private int dKey;
+  private String shiftedAlphabet;
 
   public CaesarCipher(int key) {
-    this.key = key;
+    this.eKey = key;
+    this.dKey = ALPHABET_COUNT - this.eKey;
+    this.shiftedAlphabet = ALPHABET.substring(key) + ALPHABET.substring(0, key);
   }
 
   public String encrypt(String input) {
@@ -16,7 +23,6 @@ public class CaesarCipher {
     if (input.isBlank())
       return input;
 
-    String shiftedAlphabet = ALPHABET.substring(this.key) + ALPHABET.substring(0, this.key);
     StringBuilder encrypted = new StringBuilder(input.length());
 
     for (int i = 0; i < input.length(); i++) {
@@ -41,72 +47,78 @@ public class CaesarCipher {
     return encrypted.toString();
   }
 
-  private void testEncrypt() {
-    String testPhrase = "At noon be in the conference room with your hat on for a surprise party. YELL LOUD!";
-    int testKey = 15;
-    String encrypted = this.encrypt(testPhrase);
-    System.out.println("Message: " + testPhrase);
-    System.out.println("key is " + testKey + "\n" + encrypted);
-  }
-
-  public String encryptTwoKeys(String input, int key1, int key2) {
-    if (input == null)
-      return null;
-
-    if (input.isBlank())
-      return input;
-
-    // Create shifted alphabets for both keys
-    String shiftedAlphabet1 = ALPHABET.substring(key1) + ALPHABET.substring(0, key1);
-    String shiftedAlphabet2 = ALPHABET.substring(key2) + ALPHABET.substring(0, key2);
-    StringBuilder encrypted = new StringBuilder(input.length());
-
-    for (int i = 0; i < input.length(); i++) {
-      char currentChar = input.charAt(i);
-
-      if (Character.isAlphabetic(currentChar)) {
-        boolean isUpperCase = Character.isUpperCase(currentChar);
-        char upperChar = Character.toUpperCase(currentChar);
-        int indexOfChar = ALPHABET.indexOf(upperChar);
-
-        // Choose the right shifted alphabet based on character position
-        String currentShiftedAlphabet = (i % 2 == 0) ? shiftedAlphabet1 : shiftedAlphabet2;
-
-        // Encrypt the character
-        char encryptedChar = currentShiftedAlphabet.charAt(indexOfChar);
-        if (!isUpperCase) {
-          encryptedChar = Character.toLowerCase(encryptedChar);
-        }
-        encrypted.append(encryptedChar);
-      } else {
-        // Non-English letters and non-alphabetic characters remain unchanged
-        encrypted.append(currentChar);
-      }
-    }
-    return encrypted.toString();
-  }
-
-  private void testEncryptTwoKeys() {
-    String testPhrase = "At noon be in the conference room with your hat on for a surprise party. YELL LOUD!";
-    int key1 = 8;
-    int key2 = 21;
-    String encrypted = encryptTwoKeys(testPhrase, key1, key2);
-    System.out.println("Message: " + testPhrase);
-    System.out.println("Key1 is " + key1 + ", Key2 is " + key2);
-    System.out.println("Encrypted: " + encrypted);
-
-    // Additional test with uppercase and lowercase letters, and special characters
-    testPhrase = "Hello, World!";
-    key1 = 8;
-    key2 = 21;
-    encrypted = encryptTwoKeys(testPhrase, key1, key2);
-    System.out.println("\nMessage: " + testPhrase);
-    System.out.println("Key1 is " + key1 + ", Key2 is " + key2);
-    System.out.println("Encrypted: " + encrypted);
+  public String decrypt(String input) {
+    CaesarCipher cc = new CaesarCipher(this.dKey);
+    return cc.encrypt(input);
   }
 
   public static void main(String[] args) {
-    // testEncrypt();
-    // testEncryptTwoKeys();
+
+  }
+}
+
+class TestCaesarCipher {
+  private static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  private static final int ALPHABET_COUNT = 26;
+  private static final int E_INDEX = 4;
+  private static final String PARENT_DIR = "Course02_Java_Programming_Arrays_Lists_and_Structured_Data/module02_cryptography_keeping_information_secret/PracticeBreakingCaesarData/";
+
+  public static int[] countLetters(String encrypted) {
+    int[] freq = new int[ALPHABET_COUNT];
+
+    if (encrypted == null || encrypted.isBlank())
+      return freq;
+
+    for (char ch : encrypted.toCharArray()) {
+      if (Character.isLetter(ch)) {
+        int indexOfChar = ALPHABET.indexOf(Character.toUpperCase(ch));
+        freq[indexOfChar] += 1;
+      }
+    }
+
+    return freq;
+  }
+
+  public static int maxIndex(int[] values) {
+    int maxIndex = -1;
+    int maxValue = 0;
+    for (int i = 0; i < values.length; i++) {
+      if (values[i] > maxValue) {
+        maxValue = values[i];
+        maxIndex = i;
+      }
+    }
+    return maxIndex;
+  }
+
+  public static String breakCaesarCipher(String input) {
+    int[] freq = countLetters(input);
+    int maxIndex = maxIndex(freq);
+    int eKey = (maxIndex - E_INDEX + ALPHABET_COUNT) % (ALPHABET_COUNT);
+    CaesarCipher cc = new CaesarCipher(eKey);
+    return cc.decrypt(input);
+  }
+
+  public static void simpleTests() {
+    String file = PARENT_DIR + "message2.txt";
+    FileResource fr = new FileResource(file);
+    String input = fr.asString();
+    int testKey = 18;
+    CaesarCipher cc = new CaesarCipher(testKey);
+    String encrypted = cc.encrypt(input);
+    System.out.println("----- message ----");
+    System.out.println(input);
+    System.out.println("------ encrypted w/ key " + testKey + " -----");
+    System.out.println(encrypted);
+    String decrypted = cc.decrypt(encrypted);
+    System.out.println("----- decrypted ------");
+    System.out.println(decrypted);
+    String autoDecrypted = breakCaesarCipher(encrypted);
+    System.out.println("----- autoDecrypted ------");
+    System.out.println(autoDecrypted);
+  }
+
+  public static void main(String[] args) {
+    simpleTests();
   }
 }
