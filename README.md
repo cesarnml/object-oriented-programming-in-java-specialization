@@ -103,13 +103,13 @@
     - [x] ~~_End of Module Survey_~~ [2025-10-23]
   - [ ] Module 03 - GladLibs: Stories from Templates (3 hours)
 
-    - [ ] Module Learning Outcomes/Resources
-    - [ ] Introduction
-    - [ ] High-level Design Concepts
-    - [ ] ArrayList
-    - [ ] ArrayList for Unique Words
-    - [ ] ArrayList Advantages and Issues
-    - [ ] Summary
+    - [x] ~~_Module Learning Outcomes/Resources_~~ [2025-10-23]
+    - [x] ~~_Introduction_~~ [2025-10-23]
+    - [x] ~~_High-level Design Concepts_~~ [2025-10-23]
+    - [x] ~~_ArrayList_~~ [2025-10-23]
+    - [x] ~~_ArrayList for Unique Words_~~ [2025-10-23]
+    - [x] ~~_ArrayList Advantages and Issues_~~ [2025-10-23]
+    - [x] ~~_Summary_~~ [2025-10-23]
     - [ ] Programming Exercise - Telling a Random Story
     - [ ] Telling A Random Story (Practice Assignment)
     - [ ] Introduction
@@ -232,6 +232,12 @@ String[] names = new String[100];
   - `new` instantiates new objects from a class definition
 
 #### Module 03 - GladLibs: Stories from Templates (3 hours)
+
+- Program a word frequency counter
+- Work with `ArrayList` and `HashMap`
+- Work with new lists to use in templates
+- Recognize brittle code
+- Improve code with flexible, OO-design
 
 #### Module 04 - Web Server Logs: From Logs to Visits (3 hours)
 
