@@ -9,5 +9,6 @@
   ],
   "java.debug.settings.console": "integratedTerminal",
   "java.debug.settings.hotCodeReplace": "auto",
-  "java.debug.settings.onBuildFailureProceed": true
+  "java.debug.settings.onBuildFailureProceed": true,
+  "cSpell.words": ["smalldna"]
 }
