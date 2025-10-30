@@ -125,8 +125,8 @@
     - [x] ~~_GladLibs (Graded Assignment)_~~ [2025-10-30]
 
   - [ ] Module 04 - Web Server Logs: From Logs to Visits (3 hours)
-    - [ ] Module Learning Outcomes / Resources
-    - [ ] Introduction
+    - [x] ~~_Module Learning Outcomes / Resources_~~ [2025-10-30]
+    - [x] ~~_Introduction_~~ [2025-10-30]
     - [ ] Understanding Log Files
     - [ ] LogEntry Class with toString
     - [ ] Parsing Log Files
