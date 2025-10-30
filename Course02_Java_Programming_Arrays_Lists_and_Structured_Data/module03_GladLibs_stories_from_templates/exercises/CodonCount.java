@@ -58,10 +58,14 @@ public class CodonCount {
   }
 
   private static void testCodonCount() {
-    int start = 1;
-    int end = 5;
+    // int start = 1;
+    // int end = 5;
+    int start = 6;
+    int end = 7;
+    // String filename = "ProgrammingImprovingGladLibsData/smalldna.txt";
+    // String filename = "PracticeGladLibsData/dnaMystery1";
+    String filename = "QuizGladLibsData/dnaMystery2";
 
-    String filename = "ProgrammingImprovingGladLibsData/smalldna.txt";
     String testFile = PARENT_DIR + filename;
     FileResource fr = new FileResource(testFile);
     String testDna = fr.asString().trim();

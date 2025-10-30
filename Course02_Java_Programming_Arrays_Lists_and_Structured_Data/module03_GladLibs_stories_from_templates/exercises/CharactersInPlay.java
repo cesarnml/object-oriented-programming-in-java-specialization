@@ -32,7 +32,8 @@ public class CharactersInPlay {
 
     // String filename = PARENT_DIR + "ProgrammingRandomStoryData/macbethSmall.txt";
     // String filename = PARENT_DIR + "ProgrammingRandomStoryData/macbeth.txt";
-    String filename = PARENT_DIR + "PracticeGladLibsData/likeit.txt";
+    // String filename = PARENT_DIR + "PracticeGladLibsData/likeit.txt";
+    String filename = PARENT_DIR + "QuizGladLibsData/errors.txt";
 
     FileResource fr = new FileResource(filename);
 

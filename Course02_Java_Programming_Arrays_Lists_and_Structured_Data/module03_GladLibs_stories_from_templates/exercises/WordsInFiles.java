@@ -91,16 +91,20 @@ public class WordsInFiles {
     System.out.println("\nWords appearing in " + maxFiles + " files:");
 
     // Print filenames for each word
-    for (String word : maxWords) {
-      System.out.println("\n" + word + ":");
-      wif.printFilesIn(word);
-    }
+    // for (String word : maxWords) {
+    // System.out.println("\n" + word + ":");
+    // wif.printFilesIn(word);
+    // }
+    System.out.println(maxWords.size());
+    System.out.println(wif.wordsInNumFiles(4).size());
+    wif.printFilesIn("laid");
+    wif.printFilesIn("tree");
 
-    // Optional: Print complete map (if not too large)
-    System.out.println("\n--- Complete Word Map ---");
-    for (String key : wif.getWordToFileMap().keySet()) {
-      System.out.println(key + " : " + wif.getWordToFileMap().get(key));
-    }
+    // // Optional: Print complete map (if not too large)
+    // System.out.println("\n--- Complete Word Map ---");
+    // for (String key : wif.getWordToFileMap().keySet()) {
+    // System.out.println(key + " : " + wif.getWordToFileMap().get(key));
+    // }
   }
 
   public static void main(String[] args) {

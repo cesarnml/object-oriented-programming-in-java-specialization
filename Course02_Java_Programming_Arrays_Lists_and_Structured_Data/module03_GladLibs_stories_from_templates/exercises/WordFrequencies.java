@@ -19,7 +19,8 @@ public class WordFrequencies {
 
     // String filename = PARENT_DIR +
     // "ProgrammingRandomStoryData/testwordfreqs.txt";
-    String filename = PARENT_DIR + "PracticeGladLibsData/likeit.txt";
+    // String filename = PARENT_DIR + "PracticeGladLibsData/likeit.txt";
+    String filename = PARENT_DIR + "QuizGladLibsData/errors.txt";
 
     FileResource resource = new FileResource(filename);
 

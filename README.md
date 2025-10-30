@@ -101,7 +101,7 @@
     - [x] ~~_Object Oriented Caesar Cipher (Practice Assignment)_~~ [2025-10-23]
     - [x] ~~_Cryptography (Graded Assignment)_~~ [2025-10-23]
     - [x] ~~_End of Module Survey_~~ [2025-10-23]
-  - [ ] Module 03 - GladLibs: Stories from Templates (3 hours)
+  - [x] ~~_Module 03 - GladLibs: Stories from Templates (3 hours)_~~ [2025-10-30]
 
     - [x] ~~_Module Learning Outcomes/Resources_~~ [2025-10-23]
     - [x] ~~_Introduction_~~ [2025-10-23]
@@ -115,14 +115,14 @@
     - [x] ~~_Introduction_~~ [2025-10-23]
     - [x] ~~_Brittle Code_~~ [2025-10-23]
     - [x] ~~_Adding New Labels_~~ [2025-10-23]
-    - [ ] Programming Exercise - Using GladLibs
-    - [ ] HashMap
-    - [ ] HashMap for Unique Words
-    - [ ] HashMap for Flexible Design
-    - [ ] Summary
-    - [ ] Programming Exercise: Improving GladLibs
-    - [ ] Using and Improving GladLibs (Practice Assignment)
-    - [ ] GladLibs (Graded Assignment)
+    - [x] ~~_Programming Exercise - Using GladLibs_~~ [2025-10-30]
+    - [x] ~~_HashMap_~~ [2025-10-30]
+    - [x] ~~_HashMap for Unique Words_~~ [2025-10-30]
+    - [x] ~~_HashMap for Flexible Design_~~ [2025-10-30]
+    - [x] ~~_Summary_~~ [2025-10-30]
+    - [x] ~~_Programming Exercise: Improving GladLibs_~~ [2025-10-30]
+    - [x] ~~_Using and Improving GladLibs (Practice Assignment)_~~ [2025-10-30]
+    - [x] ~~_GladLibs (Graded Assignment)_~~ [2025-10-30]
 
   - [ ] Module 04 - Web Server Logs: From Logs to Visits (3 hours)
     - [ ] Module Learning Outcomes / Resources
