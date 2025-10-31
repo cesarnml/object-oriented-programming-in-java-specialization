@@ -26,7 +26,57 @@ public class Tester {
     la.printAll();
   }
 
+  public static void testUniqueIP() {
+    LogAnalyzer la = new LogAnalyzer();
+    String relativePath = "files/WebLogProgram/short-test_log";
+    la.readFile(PARENT_DIR + relativePath);
+    int uniqueIPs = la.countUniqueIPs();
+    System.out.println("There are " + uniqueIPs + " IPs");
+  }
+
+  public static void testPrintAllHigherThanNum() {
+    LogAnalyzer la = new LogAnalyzer();
+    String relativePath = "files/WebLogProgram/weblog1_log";
+    la.readFile(PARENT_DIR + relativePath);
+    la.printAllHigherThanNum(400);
+  }
+
+  public static void testUniqueIPVisitsOnDay() {
+    String testDate = "Mar 17";
+    // String testDate = "Sep 30";
+
+    LogAnalyzer la = new LogAnalyzer();
+    // String relativePath = "files/WebLogProgram/weblog-short_log";
+    String relativePath = "files/WebLogProgram/weblog1_log";
+
+    la.readFile(PARENT_DIR + relativePath);
+    ArrayList<String> uniqueIPVisitsOnDay = la.uniqueIPVisitsOnDay(testDate);
+
+    System.out.println("Unique IPs (" + uniqueIPVisitsOnDay.size() + ") on " + testDate + ":");
+    for (String ip : uniqueIPVisitsOnDay)
+      System.out.println(ip);
+  }
+
+  public static void testCountUniqueIPsInRange() {
+    int low = 200;
+    int high = 299;
+    // int low = 300;
+    // int high = 399;
+
+    LogAnalyzer la = new LogAnalyzer();
+    // String relativePath = "files/WebLogProgram/short-test_log";
+    String relativePath = "files/WebLogProgram/weblog1_log";
+    la.readFile(PARENT_DIR + relativePath);
+    int count = la.countUniqueIPsInRange(low, high);
+    System.out.println("Number of IPs in range (" + low + ", " + high + "): " + count);
+
+  }
+
   public static void main(String[] args) {
-    testLogAnalyzer();
+    // testLogAnalyzer();
+    // testUniqueIP();
+    // testPrintAllHigherThanNum();
+    // testUniqueIPVisitsOnDay();
+    testCountUniqueIPsInRange();
   }
 }

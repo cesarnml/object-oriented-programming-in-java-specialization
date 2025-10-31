@@ -9,6 +9,8 @@ public class WebLogParser {
   static {
     // Force date parsing and formatting to use Durham's timezone (Eastern Time)
     dateFormat.setTimeZone(TimeZone.getTimeZone("America/New_York"));
+    // Set default timezone for all date operations in the program
+    TimeZone.setDefault(TimeZone.getTimeZone("America/New_York"));
   }
 
   private static String munchTo(StringBuilder sb, String delim) {

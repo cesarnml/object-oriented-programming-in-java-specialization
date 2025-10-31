@@ -133,13 +133,13 @@
     - [x] ~~_Summary_~~ [2025-10-31]
     - [x] ~~_Programming Exercise: Reading Log Files_~~ [2025-10-31]
     - [x] ~~_Reading Log Files (Practice Assignment)_~~ [2025-10-31]
-    - [ ] Introduction
-    - [ ] Developing an Algorithm
-    - [ ] Translating to Code
-    - [ ] Equality
-    - [ ] Summary
-    - [ ] Programming Exercise: Finding Unique IP Addresses
-    - [ ] Finding Unique IP Addresses (Practice Assignment)
+    - [x] ~~_Introduction_~~ [2025-10-31]
+    - [x] ~~_Developing an Algorithm_~~ [2025-10-31]
+    - [x] ~~_Translating to Code_~~ [2025-10-31]
+    - [x] ~~_Equality_~~ [2025-10-31]
+    - [x] ~~_Summary_~~ [2025-10-31]
+    - [x] ~~_Programming Exercise: Finding Unique IP Addresses_~~ [2025-10-31]
+    - [x] ~~_Finding Unique IP Addresses (Practice Assignment)_~~ [2025-10-31]
     - [ ] Introduction
     - [ ] Developing an Algorithm
     - [ ] Translating to Code
