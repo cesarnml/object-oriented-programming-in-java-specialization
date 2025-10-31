@@ -28,7 +28,9 @@ public class Tester {
 
   public static void testUniqueIP() {
     LogAnalyzer la = new LogAnalyzer();
-    String relativePath = "files/WebLogProgram/short-test_log";
+    // String relativePath = "files/WebLogProgram/short-test_log";
+    String relativePath = "files/WebLogProgram/weblog2_log";
+
     la.readFile(PARENT_DIR + relativePath);
     int uniqueIPs = la.countUniqueIPs();
     System.out.println("There are " + uniqueIPs + " IPs");
@@ -42,12 +44,14 @@ public class Tester {
   }
 
   public static void testUniqueIPVisitsOnDay() {
-    String testDate = "Mar 17";
+    // String testDate = "Mar 17";
     // String testDate = "Sep 30";
+    String testDate = "Sep 24";
 
     LogAnalyzer la = new LogAnalyzer();
     // String relativePath = "files/WebLogProgram/weblog-short_log";
-    String relativePath = "files/WebLogProgram/weblog1_log";
+    // String relativePath = "files/WebLogProgram/weblog1_log";
+    String relativePath = "files/WebLogProgram/weblog2_log";
 
     la.readFile(PARENT_DIR + relativePath);
     ArrayList<String> uniqueIPVisitsOnDay = la.uniqueIPVisitsOnDay(testDate);
@@ -58,18 +62,72 @@ public class Tester {
   }
 
   public static void testCountUniqueIPsInRange() {
-    int low = 200;
-    int high = 299;
+    // int low = 200;
+    // int high = 299;
     // int low = 300;
     // int high = 399;
+    int low = 400;
+    int high = 499;
 
     LogAnalyzer la = new LogAnalyzer();
     // String relativePath = "files/WebLogProgram/short-test_log";
-    String relativePath = "files/WebLogProgram/weblog1_log";
+    // String relativePath = "files/WebLogProgram/weblog1_log";
+    String relativePath = "files/WebLogProgram/weblog2_log";
     la.readFile(PARENT_DIR + relativePath);
     int count = la.countUniqueIPsInRange(low, high);
     System.out.println("Number of IPs in range (" + low + ", " + high + "): " + count);
 
+  }
+
+  public static void testMostNumberVisitsByIP() {
+    LogAnalyzer la = new LogAnalyzer();
+    // String relativePath = "files/WebLogProgram/short-test_log";
+    // String relativePath = "files/WebLogProgram/weblog1_log";
+    String relativePath = "files/WebLogProgram/weblog2_log";
+
+    la.readFile(PARENT_DIR + relativePath);
+    HashMap<String, Integer> visitsByIp = la.countVisitsPerIP();
+    int count = la.mostNumberVisitsByIP(visitsByIp);
+    System.out.println(count);
+  }
+
+  public static void testIPsMostVisits() {
+    LogAnalyzer la = new LogAnalyzer();
+    // String relativePath = "files/WebLogProgram/short-test_log";
+    // String relativePath = "files/WebLogProgram/weblog1_log";
+    String relativePath = "files/WebLogProgram/weblog2_log";
+
+    la.readFile(PARENT_DIR + relativePath);
+    HashMap<String, Integer> visitsByIp = la.countVisitsPerIP();
+    ArrayList<String> list = la.iPsMostVisits(visitsByIp);
+    System.out.println(list);
+  }
+
+  public static void testDayWithMostIPVisits() {
+    LogAnalyzer la = new LogAnalyzer();
+    // String relativePath = "files/WebLogProgram/short-test_log";
+    // String relativePath = "files/WebLogProgram/weblog1_log";
+    String relativePath = "files/WebLogProgram/weblog2_log";
+    la.readFile(PARENT_DIR + relativePath);
+    HashMap<String, Integer> visitsByIp = la.countVisitsPerIP();
+    HashMap<String, ArrayList<String>> iPsForDays = la.iPsForDays();
+    String dateString = la.dayWithMostIPVisits(iPsForDays);
+    System.out.println(dateString);
+  }
+
+  public static void testIPsWithMostVisitsOnDay() {
+    LogAnalyzer la = new LogAnalyzer();
+    // String relativePath = "files/WebLogProgram/short-test_log";
+    // String relativePath = "files/WebLogProgram/weblog1_log";
+    String relativePath = "files/WebLogProgram/weblog2_log";
+
+    la.readFile(PARENT_DIR + relativePath);
+    HashMap<String, ArrayList<String>> iPsForDays = la.iPsForDays();
+    // String testDate = "Mar 17";
+    String testDate = "Sep 29";
+
+    ArrayList<String> ips = la.iPsWithMostVisitsOnDay(iPsForDays, testDate);
+    System.out.println(ips);
   }
 
   public static void main(String[] args) {
@@ -77,6 +135,10 @@ public class Tester {
     // testUniqueIP();
     // testPrintAllHigherThanNum();
     // testUniqueIPVisitsOnDay();
-    testCountUniqueIPsInRange();
+    // testCountUniqueIPsInRange();
+    // testMostNumberVisitsByIP();
+    // testIPsMostVisits();
+    // testDayWithMostIPVisits();
+    testIPsWithMostVisitsOnDay();
   }
 }
