@@ -46,6 +46,6 @@ public class LogEntry {
   }
 
   public String toString() {
-    return ipAddress + " " + accessTime + " " + request + " " + statusCode + " " + bytesReturned;
+    return "%s %s %s %d %d".formatted(ipAddress, accessTime, request, statusCode, bytesReturned);
   }
 }

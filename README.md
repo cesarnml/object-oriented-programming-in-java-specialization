@@ -128,11 +128,11 @@
     - [x] ~~_Module Learning Outcomes / Resources_~~ [2025-10-30]
     - [x] ~~_Introduction_~~ [2025-10-30]
     - [x] ~~_Understanding Log Files_~~ [2025-10-31]
-    - [ ] LogEntry Class with toString
-    - [ ] Parsing Log Files
-    - [ ] Summary
-    - [ ] Programming Exercise: Reading Log Files
-    - [ ] Reading Log Files (Practice Assignment)
+    - [x] ~~_LogEntry Class with toString_~~ [2025-10-31]
+    - [x] ~~_Parsing Log Files_~~ [2025-10-31]
+    - [x] ~~_Summary_~~ [2025-10-31]
+    - [x] ~~_Programming Exercise: Reading Log Files_~~ [2025-10-31]
+    - [x] ~~_Reading Log Files (Practice Assignment)_~~ [2025-10-31]
     - [ ] Introduction
     - [ ] Developing an Algorithm
     - [ ] Translating to Code
