@@ -127,7 +127,7 @@
   - [ ] Module 04 - Web Server Logs: From Logs to Visits (3 hours)
     - [x] ~~_Module Learning Outcomes / Resources_~~ [2025-10-30]
     - [x] ~~_Introduction_~~ [2025-10-30]
-    - [ ] Understanding Log Files
+    - [x] ~~_Understanding Log Files_~~ [2025-10-31]
     - [ ] LogEntry Class with toString
     - [ ] Parsing Log Files
     - [ ] Summary
@@ -233,13 +233,17 @@ String[] names = new String[100];
 
 #### Module 03 - GladLibs: Stories from Templates (3 hours)
 
-- Program a word frequency counter
-- Work with `ArrayList` and `HashMap`
-- Work with new lists to use in templates
-- Recognize brittle code
-- Improve code with flexible, OO-design
+- Module Learning Outcomes:
+  - Program a word frequency counter
+  - Work with `ArrayList` and `HashMap`
+  - Work with new lists to use in templates
+  - Recognize brittle code
+  - Improve code with flexible, OO-design
 
 #### Module 04 - Web Server Logs: From Logs to Visits (3 hours)
+
+- Module Learning Outcomes:
+  - More file I/O and String manipulation on web server logs
 
 #### Module 05 - MiniProject: Vigenere Cipher (2 hours)
 
