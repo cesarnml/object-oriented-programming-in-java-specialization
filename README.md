@@ -124,7 +124,7 @@
     - [x] ~~_Using and Improving GladLibs (Practice Assignment)_~~ [2025-10-30]
     - [x] ~~_GladLibs (Graded Assignment)_~~ [2025-10-30]
 
-  - [ ] Module 04 - Web Server Logs: From Logs to Visits (3 hours)
+  - [x] ~~_Module 04 - Web Server Logs: From Logs to Visits (3 hours)_~~ [2025-10-31]
     - [x] ~~_Module Learning Outcomes / Resources_~~ [2025-10-30]
     - [x] ~~_Introduction_~~ [2025-10-30]
     - [x] ~~_Understanding Log Files_~~ [2025-10-31]
@@ -140,14 +140,14 @@
     - [x] ~~_Summary_~~ [2025-10-31]
     - [x] ~~_Programming Exercise: Finding Unique IP Addresses_~~ [2025-10-31]
     - [x] ~~_Finding Unique IP Addresses (Practice Assignment)_~~ [2025-10-31]
-    - [ ] Introduction
-    - [ ] Developing an Algorithm
-    - [ ] Translating to Code
-    - [ ] HashMap for Unique IPs
-    - [ ] Summary
-    - [ ] Programming Exercise: Counting Website Visits
-    - [ ] Counting Website Visits (Practice Assignment)
-    - [ ] Web Server Logs (Graded Assignment)
+    - [x] ~~_Introduction_~~ [2025-10-31]
+    - [x] ~~_Developing an Algorithm_~~ [2025-10-31]
+    - [x] ~~_Translating to Code_~~ [2025-10-31]
+    - [x] ~~_HashMap for Unique IPs_~~ [2025-10-31]
+    - [x] ~~_Summary_~~ [2025-10-31]
+    - [x] ~~_Programming Exercise: Counting Website Visits_~~ [2025-10-31]
+    - [x] ~~_Counting Website Visits (Practice Assignment)_~~ [2025-10-31]
+    - [x] ~~_Web Server Logs (Graded Assignment)_~~ [2025-10-31]
   - [ ] Module 05 - MiniProject: Vigenere Cipher (2 hours)
     - [ ] Module Resources (10 min)
     - [ ] Introduction (2 min)
