@@ -149,7 +149,7 @@
     - [x] ~~_Counting Website Visits (Practice Assignment)_~~ [2025-10-31]
     - [x] ~~_Web Server Logs (Graded Assignment)_~~ [2025-10-31]
   - [ ] Module 05 - MiniProject: Vigenere Cipher (2 hours)
-    - [ ] Module Resources (10 min)
+    - [x] ~~_Module Resources (10 min)_~~ [2025-11-01]
     - [ ] Introduction (2 min)
     - [ ] Known Language and Key Length (5 min)
     - [ ] Programming Exercise: Known Language and Key Length (10 min)
