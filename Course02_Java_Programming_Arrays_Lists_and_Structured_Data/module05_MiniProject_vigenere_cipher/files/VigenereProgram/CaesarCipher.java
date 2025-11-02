@@ -1,5 +1,6 @@
 package Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module05_MiniProject_vigenere_cipher.files.VigenereProgram;
 
+import Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module02_cryptography_keeping_information_secret.exercises.CaesarCipherTwo;
 import edu.duke.*;
 
 public class CaesarCipher {
@@ -52,5 +53,50 @@ public class CaesarCipher {
   public String toString() {
     return "" + theKey;
   }
+}
 
+class TestCaesarCipher {
+
+  private static final String PARENT_DIR = "Course02_Java_Programming_Arrays_Lists_and_Structured_Data/module05_MiniProject_vigenere_cipher/";
+
+  private static void tester() {
+    int testKey = 6;
+    String testLetter1 = "C";
+    String testLetter2 = "e";
+    String testMessage1 = "Cesar";
+
+    String relativePath = "files/VigenereTestData/titus-small.txt";
+    FileResource fr = new FileResource(PARENT_DIR + relativePath);
+    String testMessage2 = fr.asString().trim();
+
+    String[] testCases = { testLetter1, testLetter2, testMessage1, testMessage2 };
+
+    CaesarCipher cc = new CaesarCipher(testKey);
+
+    for (String testString : testCases) {
+      System.out.println("--------------");
+
+      System.out.println("Encryption Test with key = " + testKey);
+      System.out.println("Original Message:\n");
+      System.out.println(testString);
+      System.out.println();
+
+      System.out.println("Encrypted Message:\n");
+      String encrypted = cc.encrypt(testString);
+      System.out.println(encrypted);
+      System.out.println();
+
+      System.out.println("Decrypted Message:\n");
+      String decrypted = cc.decrypt(encrypted);
+      System.out.println(decrypted);
+      System.out.println("--------------");
+
+      System.out.println("\n\n");
+    }
+
+  }
+
+  public static void main(String[] args) {
+    tester();
+  }
 }

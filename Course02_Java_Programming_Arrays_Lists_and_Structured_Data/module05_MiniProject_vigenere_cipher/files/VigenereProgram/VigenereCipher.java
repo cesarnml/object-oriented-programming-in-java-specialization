@@ -40,5 +40,36 @@ public class VigenereCipher {
   public String toString() {
     return Arrays.toString(ciphers);
   }
+}
 
+class TestVigenereCipher {
+  private static final String PARENT_DIR = "Course02_Java_Programming_Arrays_Lists_and_Structured_Data/module05_MiniProject_vigenere_cipher/";
+
+  private static void tester() {
+    String relativePath = "files/VigenereTestData/";
+    String filename = "titus-small.txt";
+
+    int[] testKey = { 17, 14, 12, 4 };
+    VigenereCipher vc = new VigenereCipher(testKey);
+
+    FileResource fr = new FileResource(PARENT_DIR + relativePath + filename);
+    String message = fr.asString().trim();
+    String encrypted = vc.encrypt(message);
+    String decrypted = vc.decrypt(encrypted);
+
+    System.out.println("------------------");
+    System.out.println("Original Message:\n");
+    System.out.println(message);
+    System.out.println("\n");
+    System.out.println("Encrypted Message:\n");
+    System.out.println(encrypted);
+    System.out.println("\n");
+    System.out.println("Decrypted Message:\n");
+    System.out.println(decrypted);
+    System.out.println("------------------");
+  }
+
+  public static void main(String[] args) {
+    tester();
+  }
 }

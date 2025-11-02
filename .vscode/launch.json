@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "VigenereBreaker",
+      "request": "launch",
+      "mainClass": "Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module05_MiniProject_vigenere_cipher.files.VigenereProgram.VigenereBreaker",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "TestVigenereCipher",
+      "request": "launch",
+      "mainClass": "Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module05_MiniProject_vigenere_cipher.files.VigenereProgram.TestVigenereCipher",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "TestCaesarCracker",
+      "request": "launch",
+      "mainClass": "Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module05_MiniProject_vigenere_cipher.files.VigenereProgram.TestCaesarCracker",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
+      "name": "TestCaesarCipher",
+      "request": "launch",
+      "mainClass": "Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module05_MiniProject_vigenere_cipher.files.VigenereProgram.TestCaesarCipher",
+      "projectName": "object-oriented-programming-in-java-specialization_82b1757f"
+    },
+    {
+      "type": "java",
       "name": "Tester",
       "request": "launch",
       "mainClass": "Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module04_WebServerLogs_from_logs_to_visits.files.WebLogProgram.Tester",
