@@ -151,10 +151,10 @@
   - [ ] Module 05 - MiniProject: Vigenere Cipher (2 hours)
     - [x] ~~_Module Resources (10 min)_~~ [2025-11-01]
     - [x] ~~_Introduction (2 min)_~~ [2025-11-02]
-    - [ ] Known Language and Key Length (5 min)
-    - [ ] Programming Exercise: Known Language and Key Length (10 min)
-    - [ ] Known Language and Key Length (Practice Assignment) (30 min)
-    - [ ] Unknown Key Length (4 min)
+    - [x] ~~_Known Language and Key Length (5 min)_~~ [2025-11-02]
+    - [x] ~~_Programming Exercise: Known Language and Key Length (10 min)_~~ [2025-11-02]
+    - [x] ~~_Known Language and Key Length (Practice Assignment) (30 min)_~~ [2025-11-02]
+    - [x] ~~_Unknown Key Length (4 min)_~~ [2025-11-02]
     - [ ] Programming Exercise: Unknown Key Length (10 min)
     - [ ] Unknown Key Length (Practice Assignment) (30 min)
     - [ ] Unknown Language (4 min)
