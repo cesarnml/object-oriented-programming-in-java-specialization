@@ -155,13 +155,13 @@
     - [x] ~~_Programming Exercise: Known Language and Key Length (10 min)_~~ [2025-11-02]
     - [x] ~~_Known Language and Key Length (Practice Assignment) (30 min)_~~ [2025-11-02]
     - [x] ~~_Unknown Key Length (4 min)_~~ [2025-11-02]
-    - [ ] Programming Exercise: Unknown Key Length (10 min)
-    - [ ] Unknown Key Length (Practice Assignment) (30 min)
-    - [ ] Unknown Language (4 min)
+    - [x] ~~_Programming Exercise: Unknown Key Length (10 min)_~~ [2025-11-02]
+    - [x] ~~_Unknown Key Length (Practice Assignment) (30 min)_~~ [2025-11-02]
+    - [x] ~~_Unknown Language (4 min)_~~ [2025-11-02]
     - [ ] Programming Exercise: Unknown Language, Unknown Key Length (10 min)
     - [ ] Breaking the Vigenère Cipher (Graded Assignment) (30 min)
-    - [ ] Extend Your Program (10 min)
-    - [ ] Share your learning experience (10 min)
+    - [x] ~~_Extend Your Program (10 min)_~~ [2025-11-02]
+    - [x] ~~_Share your learning experience (10 min)_~~ [2025-11-02]
 
 - [ ] Course 03 - Object Oriented Programming in Java (40 hours)
 - [ ] Course 04 - Data Structures and Performance (41 hours)
