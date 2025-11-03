@@ -148,7 +148,7 @@
     - [x] ~~_Programming Exercise: Counting Website Visits_~~ [2025-10-31]
     - [x] ~~_Counting Website Visits (Practice Assignment)_~~ [2025-10-31]
     - [x] ~~_Web Server Logs (Graded Assignment)_~~ [2025-10-31]
-  - [ ] Module 05 - MiniProject: Vigenere Cipher (2 hours)
+  - [x] ~~_Module 05 - MiniProject: Vigenere Cipher (2 hours)_~~ [2025-11-03]
     - [x] ~~_Module Resources (10 min)_~~ [2025-11-01]
     - [x] ~~_Introduction (2 min)_~~ [2025-11-02]
     - [x] ~~_Known Language and Key Length (5 min)_~~ [2025-11-02]
@@ -158,8 +158,8 @@
     - [x] ~~_Programming Exercise: Unknown Key Length (10 min)_~~ [2025-11-02]
     - [x] ~~_Unknown Key Length (Practice Assignment) (30 min)_~~ [2025-11-02]
     - [x] ~~_Unknown Language (4 min)_~~ [2025-11-02]
-    - [ ] Programming Exercise: Unknown Language, Unknown Key Length (10 min)
-    - [ ] Breaking the Vigenère Cipher (Graded Assignment) (30 min)
+    - [x] ~~_Programming Exercise: Unknown Language, Unknown Key Length (10 min)_~~ [2025-11-03]
+    - [x] ~~_Breaking the Vigenère Cipher (Graded Assignment) (30 min)_~~ [2025-11-03]
     - [x] ~~_Extend Your Program (10 min)_~~ [2025-11-02]
     - [x] ~~_Share your learning experience (10 min)_~~ [2025-11-02]
 
