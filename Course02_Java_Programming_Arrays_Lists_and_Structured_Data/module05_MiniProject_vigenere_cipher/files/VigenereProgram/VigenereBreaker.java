@@ -153,11 +153,13 @@ public class VigenereBreaker {
   public void breakVigenere() {
     // String relativePath1 = "files/VigenereTestData/";
     // String relativePath1 = "files/";
-    String relativePath1 = "files/VigenereTestData/";
+    String relativePath1 = "files/VigenereProgram/messages/";
     String relativePath2 = "files/VigenereProgram/dictionaries/";
 
     // String filename1 = "secretmessage2.txt";
-    String filename1 = "athens_keyflute.txt";
+    // String filename1 = "athens_keyflute.txt";
+    // String filename1 = "secretmessage3.txt";
+    String filename1 = "secretmessage4.txt";
 
     // String filename1 = "secretmessage1.txt";
     // String filename2 = "English";
