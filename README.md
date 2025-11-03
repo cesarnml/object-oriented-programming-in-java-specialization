@@ -170,32 +170,32 @@
     - [x] ~~_Share your learning experience (10 min)_~~ [2025-11-02]
 
 - [ ] Course 03 - Object Oriented Programming in Java (40 hours)
-  - [ ] Module 01 - Welcome and Project Overview: Visualizing Data (~2 hours 20 min)
-    - [ ] Course Opening Title (6 sec)
-    - [ ] A Customized Welcome to this Course (10 min)
-    - [ ] Welcome (Object Oriented Java Programming: Data Structures and Beyond Specialization) (3 min)
-    - [ ] Welcome (Object Oriented Programming in Java Specialization) (1 min)
-    - [ ] After completing this course, you will be able to... (5 min)
-    - [ ] Is this course right for me? (10 min)
-    - [ ] Pre-Course Quiz (Practice Assignment • Grade: 92.3%)
-    - [ ] Up Next: A short survey (10 min)
-    - [ ] Survey: Your goals for the course (Practice Assignment • Grade: 100%)
-    - [ ] Project overview (10 min)
-    - [ ] Project prototype (4 min)
-    - [ ] Your Path through the Course (5 min)
-    - [ ] Concept Challenges: what and why? (3 min)
-    - [ ] In the Real World: Welcome from Google Engineers (50 sec)
-    - [ ] Additional Resources and Support (10 min)
-    - [ ] Introduction: Classes and Objects (25 sec)
-    - [ ] By the end of this week you will be able to... (5 min)
-    - [ ] A note about the main method (2 min)
-    - [ ] Core: Defining Classes and Creating Objects (11 min)
-    - [ ] When I Struggled: Objects (1 min)
-    - [ ] Core: Overloading Methods (6 min)
-    - [ ] Core: Public vs. Private (7 min)
-    - [ ] In the Real World: Public vs. Private access (27 sec)
-    - [ ] Basics of Objects (Practice Assignment • 30 min)
-    - [ ] What questions do you have about Objects? (Discussion Prompt • 10 min)
+  - [x] ~~_Module 01 - Welcome and Project Overview: Visualizing Data (~2 hours 20 min)_~~ [2025-11-03]
+    - [x] ~~_Course Opening Title (6 sec)_~~ [2025-11-03]
+    - [x] ~~_A Customized Welcome to this Course (10 min)_~~ [2025-11-03]
+    - [x] ~~_Welcome (Object Oriented Java Programming: Data Structures and Beyond Specialization) (3 min)_~~ [2025-11-03]
+    - [x] ~~_Welcome (Object Oriented Programming in Java Specialization) (1 min)_~~ [2025-11-03]
+    - [x] ~~_After completing this course, you will be able to... (5 min)_~~ [2025-11-03]
+    - [x] ~~_Is this course right for me? (10 min)_~~ [2025-11-03]
+    - [x] ~~_Pre-Course Quiz (Practice Assignment • Grade: 92.3%)_~~ [2025-11-03]
+    - [x] ~~_Up Next: A short survey (10 min)_~~ [2025-11-03]
+    - [x] ~~_Survey: Your goals for the course (Practice Assignment • Grade: 100%)_~~ [2025-11-03]
+    - [x] ~~_Project overview (10 min)_~~ [2025-11-03]
+    - [x] ~~_Project prototype (4 min)_~~ [2025-11-03]
+    - [x] ~~_Your Path through the Course (5 min)_~~ [2025-11-03]
+    - [x] ~~_Concept Challenges: what and why? (3 min)_~~ [2025-11-03]
+    - [x] ~~_In the Real World: Welcome from Google Engineers (50 sec)_~~ [2025-11-03]
+    - [x] ~~_Additional Resources and Support (10 min)_~~ [2025-11-03]
+    - [x] ~~_Introduction: Classes and Objects (25 sec)_~~ [2025-11-03]
+    - [x] ~~_By the end of this week you will be able to... (5 min)_~~ [2025-11-03]
+    - [x] ~~_A note about the main method (2 min)_~~ [2025-11-03]
+    - [x] ~~_Core: Defining Classes and Creating Objects (11 min)_~~ [2025-11-03]
+    - [x] ~~_When I Struggled: Objects (1 min)_~~ [2025-11-03]
+    - [x] ~~_Core: Overloading Methods (6 min)_~~ [2025-11-03]
+    - [x] ~~_Core: Public vs. Private (7 min)_~~ [2025-11-03]
+    - [x] ~~_In the Real World: Public vs. Private access (27 sec)_~~ [2025-11-03]
+    - [x] ~~_Basics of Objects (Practice Assignment • 30 min)_~~ [2025-11-03]
+    - [x] ~~_What questions do you have about Objects? (Discussion Prompt • 10 min)_~~ [2025-11-03]
   - [ ] Module 02 - Memory Models, Scope, and Starting the Project (~8 hours)
     - [ ] Introduction: Memory Models, Scope, and Project (29 sec)
     - [ ] Remember to Choose Your Own Path (10 min)
@@ -413,9 +413,25 @@ String[] names = new String[100];
 
 #### Module 05 - MiniProject: Vigenere Cipher (2 hours)
 
+- Introduces working with `HashSet` for the final project.
+
 ### Course 03 - Object Oriented Programming in Java (40 hours)
 
 #### Module 01 - Welcome and Project Overview: Visualizing Data (3 hours)
+
+- Learning Outcomes:
+
+  1. Build an interactive graphical program in Java
+  2. Design classes to make use of object-oriented programming paradigms
+  3. Explain inheritance and polymorphism and how each concept is applied in the creation of a Java GUI
+  4. Explain how even handling works in Java, and write event handlers to create and interactive program
+  5. Write and apply searching and sorting algorithms to manage large data sets
+  6. Find and fix errors (bugs) in code
+  7. Develop and use test cases to ensure correctness fo a program
+
+- _There is no "calling object" inside main._
+- A Java `class` defines a custom data `type` (a blueprint for creating objects)
+- `this` is a reference to the current object and is available in instance methods and constructors (but NOT in static methods)
 
 #### Module 02 - Memory Models, Scope, and Starting the Project (10 hours)
 
