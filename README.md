@@ -257,9 +257,9 @@
     - [x] ~~_Bonus: Visualizing life expectancy (29 sec)_~~ [2025-11-04]
     - [x] ~~_Bonus: Setting up the map (4 min)_~~ [2025-11-04]
     - [x] ~~_Bonus: Representing data (8 min)_~~ [2025-11-04]
-    - [ ] Bonus: Coloring markers (11 min)
-    - [ ] Support: ArrayLists and Generics (8 min)
-    - [ ] Project: Module 3 Programming Assignment Walkthrough (8 min)
+    - [x] ~~_Bonus: Coloring markers (11 min)_~~ [2025-11-04]
+    - [x] ~~_Support: ArrayLists and Generics (8 min)_~~ [2025-11-04]
+    - [x] ~~_Project: Module 3 Programming Assignment Walkthrough (8 min)_~~ [2025-11-04]
     - [ ] Programming Assignment Instructions (5h)
     - [ ] Programming Assignment Quiz (Do programming assignment FIRST) (Graded Assignment • 20 min)
     - [ ] Congratulations and quiz answers (10 min)
