@@ -229,8 +229,8 @@
     - [x] ~~_Programming Assignment Quiz (Do programming assignment FIRST) (Graded Assignment • 30 min)_~~ [2025-11-04]
     - [x] ~~_Congratulations and quiz answers (10 min)_~~ [2025-11-04]
   - [ ] Module 03 - Graphical Output: Creating GUIs and Displaying Data (~8 hours)
-    - [ ] Module Introduction: Graphical User Interfaces (GUIs) (18 sec)
-    - [ ] By the end of this week you will be able to... (10 min)
+    - [x] ~~_Module Introduction: Graphical User Interfaces (GUIs) (18 sec)_~~ [2025-11-04]
+    - [x] ~~_By the end of this week you will be able to... (10 min)_~~ [2025-11-04]
     - [ ] Project: Module 3 Programming Assignment Overview (1 min)
     - [ ] Core: Graphical User Interfaces (6 min)
     - [ ] Core: Using PApplet (11 min)
@@ -443,6 +443,16 @@ String[] names = new String[100];
   5. Practice tracing code using memory models and Java's rules for variable scope
 
 #### Module 03 - Graphical Output: Creating GUIs and Displaying Data (8 hours)
+
+- Learning Outcomes:
+  1. Create and manipulate Graphical User Interfaces (GUIs)
+  2. Find and effectively use Java documentation
+  3. Use the **Processing library** in your programs
+  4. Customize **visual maps** using Java code
+  5. use Java to read and parse data files
+  6. Organize data into appropriate objects
+  7. Describe and use the **List data type** and the **ArrayList class**
+  8. Describe and use the **Map data type**
 
 #### Module 04 - Inheritance (5 hours)
 
