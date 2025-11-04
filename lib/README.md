@@ -4,41 +4,52 @@ This directory contains external JAR files required for the project.
 
 ## Required Libraries for Course 3 (Object-Oriented Programming)
 
-### Processing
+### ⚠️ Important Compatibility Notice
 
-- **Files Needed**: 
-  - `core.jar` (required)
-  - `gluegen-rt.jar` (optional, for OpenGL support)
-  - `jogl-all.jar` (optional, for OpenGL support)
-- **Download**: [Processing Downloads](https://processing.org/download)
-- **Description**: Processing core library for graphics and GUI
+**Unfolding Maps 0.9.6 requires Processing 2.2.1**. It is **NOT compatible** with Processing 3.x or 4.x.
+
+- **Unfolding Maps**: v0.9.6 (latest as of 2014)
+- **Processing**: v2.2.1 (required)
+- **Java**: JDK 7 or 8 recommended for Processing 2.2.1
+
+The Unfolding Maps library has not been updated for Processing 3 or 4, so you must use the older Processing 2.2.1 version.
+
+### Processing 2.2.1
+
+- **Version**: 2.2.1 (specifically required for Unfolding Maps)
+- **Files Needed**: `core.jar`
+- **Download**: [Processing 2.2.1 Archive](https://github.com/processing/processing/releases?page=5)
+  - Or search for "Processing 2.2.1" old releases
+- **Description**: Processing core library for graphics and GUI (version 2.x)
 - **Installation**:
-  1. Download and install the Processing IDE (the JARs are not available separately)
+
+  1. Download Processing 2.2.1 (NOT the latest version 4.x)
   2. After installation, locate the Processing installation directory:
      - **macOS**: `/Applications/Processing.app/Contents/Java/core/library/`
-     - **Windows**: `C:\Program Files\processing-<version>\core\library\`
-     - **Linux**: `/opt/processing-<version>/core/library/` or `~/processing-<version>/core/library/`
-  3. Copy `core.jar` (and optionally the OpenGL JARs) to this `lib/` directory
-  
-  **Alternative**: You can also find the JARs in Processing's application folder after launching it once.
+     - **Windows**: `C:\Program Files\processing-2.2.1\core\library\`
+     - **Linux**: `/opt/processing-2.2.1/core/library/` or `~/processing-2.2.1/core/library/`
+  3. Copy `core.jar` to this `lib/` directory
 
-### Unfolding Maps
+### Unfolding Maps 0.9.6
 
+- **Version**: 0.9.6 (for Processing 2.2.1 only)
 - **Files**:
-  - `unfolding-maps.jar` (or `Unfolding.jar`)
-  - Additional dependencies may be bundled
-- **Download**: 
-  - [Unfolding Maps Releases](http://unfoldingmaps.org/downloads/)
-  - Or via Processing IDE: Sketch → Import Library → Add Library → Search "Unfolding Maps"
-- **Description**: Library for interactive maps and geo-visualizations
+  - `Unfolding.jar` (main library)
+  - Additional dependencies bundled in the download
+- **Download**:
+  - [Unfolding Maps 0.9.6 for Processing 2](https://github.com/tillnagel/unfolding/releases/download/v0.9.6/Unfolding_for_processing_0.9.6.zip)
+  - Or via Processing 2 IDE: Sketch → Import Library → Add Library → Search "Unfolding Maps"
+- **Description**: Library for interactive maps and geo-visualizations (last updated 2014)
 - **Installation**:
-  
+
   **Option 1 - Direct Download:**
-  1. Download the Unfolding Maps library from the website
-  2. Extract the archive
-  3. Copy all JAR files from the `lib/` folder to this project's `lib/` directory
-  
+
+  1. Download Unfolding Maps 0.9.6 from the GitHub releases link above
+  2. Extract the ZIP archive
+  3. Copy all JAR files from the `Unfolding/library/` folder to this project's `lib/` directory
+
   **Option 2 - Via Processing IDE:**
+
   1. Open Processing IDE
   2. Go to Sketch → Import Library → Add Library
   3. Search for "Unfolding Maps" and click Install

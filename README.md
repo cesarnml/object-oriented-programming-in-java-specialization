@@ -335,31 +335,37 @@
 
 ## External Libraries Setup
 
-This project uses external Java libraries for GUI and visualization:
+This project uses external Java libraries for GUI and visualization in Course 3.
 
-### Processing Library
+### ⚠️ Compatibility Requirement
 
-The **Processing** library provides graphical capabilities for creating interactive visual applications.
+**Unfolding Maps 0.9.6 requires Processing 2.2.1** (NOT Processing 3.x or 4.x)
 
-### Unfolding Maps Library
+### Processing 2.2.1
 
-The **Unfolding Maps** library enables interactive map visualizations and geospatial data display.
+The **Processing** library (version 2.2.1) provides graphical capabilities for creating interactive visual applications.
+
+### Unfolding Maps 0.9.6
+
+The **Unfolding Maps** library enables interactive map visualizations and geospatial data display. Last updated in 2014, it only works with Processing 2.x.
 
 ### Installation
 
-1. **Download and Install Processing IDE**:
-   - Download from [processing.org](https://processing.org/download)
-   - Install the Processing application
-   - Locate `core.jar` in the Processing installation directory and copy to `lib/`
+1. **Download and Install Processing 2.2.1**:
 
-2. **Get Unfolding Maps**:
-   - **Option A**: Download directly from [unfoldingmaps.org](http://unfoldingmaps.org/)
-   - **Option B**: Use Processing IDE (Sketch → Import Library → Add Library → "Unfolding Maps")
+   - Download from [Processing 2.2.1 releases](https://github.com/processing/processing/releases?page=5)
+   - Install Processing 2.2.1 (NOT the current version 4.x)
+   - Locate `core.jar` in the installation directory and copy to `lib/`
+
+2. **Get Unfolding Maps 0.9.6**:
+
+   - **Option A**: Download directly from [GitHub releases](https://github.com/tillnagel/unfolding/releases/download/v0.9.6/Unfolding_for_processing_0.9.6.zip)
+   - **Option B**: Use Processing 2 IDE (Sketch → Import Library → Add Library → "Unfolding Maps")
    - Copy all JAR files to the `lib/` directory
 
 3. **Verify Setup**:
    - VS Code will automatically detect JARs in `lib/` via `.vscode/settings.json`
-   - Check `lib/README.md` for detailed installation paths and instructions
+   - See `lib/README.md` for detailed installation paths and instructions
 
 ### Compilation & Execution
 
