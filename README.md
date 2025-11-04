@@ -196,38 +196,38 @@
     - [x] ~~_In the Real World: Public vs. Private access (27 sec)_~~ [2025-11-03]
     - [x] ~~_Basics of Objects (Practice Assignment • 30 min)_~~ [2025-11-03]
     - [x] ~~_What questions do you have about Objects? (Discussion Prompt • 10 min)_~~ [2025-11-03]
-  - [ ] Module 02 - Memory Models, Scope, and Starting the Project (~8 hours)
-    - [ ] Introduction: Memory Models, Scope, and Project (29 sec)
-    - [ ] Remember to Choose Your Own Path (10 min)
-    - [ ] By the end of this week, you will be able to... (10 min)
-    - [ ] Getting ready to write code (Reading • 10 min)
-    - [ ] Project: Module 1 Assignment Overview (1 min)
-    - [ ] Important note for learners working offline (10 min)
-    - [ ] Setting Up Java and Eclipse on Windows (and Linux) (10 min)
-    - [ ] Setting Up Java and Eclipse on Mac (10 min)
-    - [ ] Setting Up Unfolding Maps (10 min)
-    - [ ] Project: Setting up the starter code in Eclipse (4 min)
-    - [ ] Support: Troubleshooting Common Issues (10 min)
-    - [ ] Core: Drawing Memory Models with Primitive Data (5 min)
-    - [ ] Where to next? (Practice Assignment • 30 min)
-    - [ ] Support: Memory Models for Primitive Types (3 min)
-    - [ ] Support: Setting Up and Running Examples in Eclipse (2 min)
-    - [ ] Working with Code (Practice Assignment • 30 min)
-    - [ ] When I Struggled: Compiling and Running Code (55 sec)
-    - [ ] Core: Drawing Memory Models with Objects (8 min)
-    - [ ] Concept Challenge: Memory Models 1 (5 min)
-    - [ ] Concept Challenge: Memory Models 2 (5 min)
-    - [ ] Support: Memory Model Drawing Example (5 min)
-    - [ ] Core: Introduction to Scope (9 min)
-    - [ ] Concept Challenge: Scope (6 min)
-    - [ ] Support: Putting It all Together Part 1 (5 min)
-    - [ ] Support: Putting It all Together Part 2 (10 min)
-    - [ ] Objects, memory models, and scope (Graded Assignment • 3 min)
-    - [ ] Congratulations and quiz answers (10 min)
-    - [ ] Project: Module 1 Assignment Walkthrough (7 min)
-    - [ ] Programming Assignment Instructions (5h)
-    - [ ] Programming Assignment Quiz (Do programming assignment FIRST) (Graded Assignment • 30 min)
-    - [ ] Congratulations and quiz answers (10 min)
+  - [x] ~~_Module 02 - Memory Models, Scope, and Starting the Project (~8 hours)_~~ [2025-11-04]
+    - [x] ~~_Introduction: Memory Models, Scope, and Project (29 sec)_~~ [2025-11-04]
+    - [x] ~~_Remember to Choose Your Own Path (10 min)_~~ [2025-11-04]
+    - [x] ~~_By the end of this week, you will be able to... (10 min)_~~ [2025-11-04]
+    - [x] ~~_Getting ready to write code (Reading • 10 min)_~~ [2025-11-04]
+    - [x] ~~_Project: Module 1 Assignment Overview (1 min)_~~ [2025-11-04]
+    - [x] ~~_Important note for learners working offline (10 min)_~~ [2025-11-04]
+    - [x] ~~_Setting Up Java and Eclipse on Windows (and Linux) (10 min)_~~ [2025-11-04]
+    - [x] ~~_Setting Up Java and Eclipse on Mac (10 min)_~~ [2025-11-04]
+    - [x] ~~_Setting Up Unfolding Maps (10 min)_~~ [2025-11-04]
+    - [x] ~~_Project: Setting up the starter code in Eclipse (4 min)_~~ [2025-11-04]
+    - [x] ~~_Support: Troubleshooting Common Issues (10 min)_~~ [2025-11-04]
+    - [x] ~~_Core: Drawing Memory Models with Primitive Data (5 min)_~~ [2025-11-04]
+    - [x] ~~_Where to next? (Practice Assignment • 30 min)_~~ [2025-11-04]
+    - [x] ~~_Support: Memory Models for Primitive Types (3 min)_~~ [2025-11-04]
+    - [x] ~~_Support: Setting Up and Running Examples in Eclipse (2 min)_~~ [2025-11-04]
+    - [x] ~~_Working with Code (Practice Assignment • 30 min)_~~ [2025-11-04]
+    - [x] ~~_When I Struggled: Compiling and Running Code (55 sec)_~~ [2025-11-04]
+    - [x] ~~_Core: Drawing Memory Models with Objects (8 min)_~~ [2025-11-04]
+    - [x] ~~_Concept Challenge: Memory Models 1 (5 min)_~~ [2025-11-04]
+    - [x] ~~_Concept Challenge: Memory Models 2 (5 min)_~~ [2025-11-04]
+    - [x] ~~_Support: Memory Model Drawing Example (5 min)_~~ [2025-11-04]
+    - [x] ~~_Core: Introduction to Scope (9 min)_~~ [2025-11-04]
+    - [x] ~~_Concept Challenge: Scope (6 min)_~~ [2025-11-04]
+    - [x] ~~_Support: Putting It all Together Part 1 (5 min)_~~ [2025-11-04]
+    - [x] ~~_Support: Putting It all Together Part 2 (10 min)_~~ [2025-11-04]
+    - [x] ~~_Objects, memory models, and scope (Graded Assignment • 3 min)_~~ [2025-11-04]
+    - [x] ~~_Congratulations and quiz answers (10 min)_~~ [2025-11-04]
+    - [x] ~~_Project: Module 1 Assignment Walkthrough (7 min)_~~ [2025-11-04]
+    - [x] ~~_Programming Assignment Instructions (5h)_~~ [2025-11-04]
+    - [x] ~~_Programming Assignment Quiz (Do programming assignment FIRST) (Graded Assignment • 30 min)_~~ [2025-11-04]
+    - [x] ~~_Congratulations and quiz answers (10 min)_~~ [2025-11-04]
   - [ ] Module 03 - Graphical Output: Creating GUIs and Displaying Data (~8 hours)
     - [ ] Module Introduction: Graphical User Interfaces (GUIs) (18 sec)
     - [ ] By the end of this week you will be able to... (10 min)
@@ -434,6 +434,13 @@ String[] names = new String[100];
 - `this` is a reference to the current object and is available in instance methods and constructors (but NOT in static methods)
 
 #### Module 02 - Memory Models, Scope, and Starting the Project (10 hours)
+
+- Learning Outcomes:
+  1. Select and effectively use Java documentation
+  2. Generate visual maps using Java code and the Unfolding Maps libraries
+  3. Create and draw memory models for reasoning about variable values for primitive and object data types
+  4. Apply the basic rules for variable scope and explain how it impacts your code
+  5. Practice tracing code using memory models and Java's rules for variable scope
 
 #### Module 03 - Graphical Output: Creating GUIs and Displaying Data (8 hours)
 
