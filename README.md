@@ -231,7 +231,7 @@
   - [ ] Module 03 - Graphical Output: Creating GUIs and Displaying Data (~8 hours)
     - [x] ~~_Module Introduction: Graphical User Interfaces (GUIs) (18 sec)_~~ [2025-11-04]
     - [x] ~~_By the end of this week you will be able to... (10 min)_~~ [2025-11-04]
-    - [ ] Project: Module 3 Programming Assignment Overview (1 min)
+    - [x] ~~_Project: Module 3 Programming Assignment Overview (1 min)_~~ [2025-11-04]
     - [ ] Core: Graphical User Interfaces (6 min)
     - [ ] Core: Using PApplet (11 min)
     - [ ] When I Struggled: GUIs (27 sec)
@@ -453,6 +453,11 @@ String[] names = new String[100];
   6. Organize data into appropriate objects
   7. Describe and use the **List data type** and the **ArrayList class**
   8. Describe and use the **Map data type**
+- GUI Libraries in Java
+  - Swing
+  - JavaFX
+  - AWT
+  - **Processing**
 
 #### Module 04 - Inheritance (5 hours)
 
