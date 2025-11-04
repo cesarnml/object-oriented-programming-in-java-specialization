@@ -1,8 +1,13 @@
 # Object Oriented Programming in Java Specialization (~260 hours)
 
 - [Object Oriented Programming in Java Specialization (~260 hours)](#object-oriented-programming-in-java-specialization-260-hours)
-  - [External Libraries Setup](#external-libraries-setup)
   - [Courses](#courses)
+  - [External Libraries Setup](#external-libraries-setup)
+    - [⚠️ Compatibility Requirement](#️-compatibility-requirement)
+    - [Processing 2.2.1](#processing-221)
+    - [Unfolding Maps 0.9.6](#unfolding-maps-096)
+    - [Installation](#installation)
+    - [Compilation \& Execution](#compilation--execution)
   - [Notes](#notes)
     - [Course 01 - Java Programming: Solving Problems with Software](#course-01---java-programming-solving-problems-with-software)
       - [Module 01 - Introduction to the Course](#module-01---introduction-to-the-course)
@@ -246,12 +251,12 @@
     - [x] ~~_Support: Using Documentation (7 min)_~~ [2025-11-04]
     - [x] ~~_In the Real World: Documentation (3 min)_~~ [2025-11-04]
     - [x] ~~_Core: Setting up map visualization (5 min)_~~ [2025-11-04]
-    - [ ] Core: Adding markers (5 min)
-    - [ ] Core: Using live data (11 min)
-    - [ ] Support: Understanding Features and Markers (Reading • 30 min)
-    - [ ] Bonus: Visualizing life expectancy (29 sec)
-    - [ ] Bonus: Setting up the map (4 min)
-    - [ ] Bonus: Representing data (8 min)
+    - [x] ~~_Core: Adding markers (5 min)_~~ [2025-11-04]
+    - [x] ~~_Core: Using live data (11 min)_~~ [2025-11-04]
+    - [x] ~~_Support: Understanding Features and Markers (Reading • 30 min)_~~ [2025-11-04]
+    - [x] ~~_Bonus: Visualizing life expectancy (29 sec)_~~ [2025-11-04]
+    - [x] ~~_Bonus: Setting up the map (4 min)_~~ [2025-11-04]
+    - [x] ~~_Bonus: Representing data (8 min)_~~ [2025-11-04]
     - [ ] Bonus: Coloring markers (11 min)
     - [ ] Support: ArrayLists and Generics (8 min)
     - [ ] Project: Module 3 Programming Assignment Walkthrough (8 min)
