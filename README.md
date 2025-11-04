@@ -1,6 +1,7 @@
 # Object Oriented Programming in Java Specialization (~260 hours)
 
 - [Object Oriented Programming in Java Specialization (~260 hours)](#object-oriented-programming-in-java-specialization-260-hours)
+  - [External Libraries Setup](#external-libraries-setup)
   - [Courses](#courses)
   - [Notes](#notes)
     - [Course 01 - Java Programming: Solving Problems with Software](#course-01---java-programming-solving-problems-with-software)
@@ -244,7 +245,7 @@
     - [x] ~~_Core: Why Processing? (2 min)_~~ [2025-11-04]
     - [x] ~~_Support: Using Documentation (7 min)_~~ [2025-11-04]
     - [x] ~~_In the Real World: Documentation (3 min)_~~ [2025-11-04]
-    - [ ] Core: Setting up map visualization (5 min)
+    - [x] ~~_Core: Setting up map visualization (5 min)_~~ [2025-11-04]
     - [ ] Core: Adding markers (5 min)
     - [ ] Core: Using live data (11 min)
     - [ ] Support: Understanding Features and Markers (Reading • 30 min)
@@ -331,6 +332,48 @@
     - [ ] Programming Assignment Extension Peer Review (Review Your Peers)
     - [ ] End of Course Message (45 sec)
 - [ ] Course 04 - Data Structures and Performance (41 hours)
+
+## External Libraries Setup
+
+This project uses external Java libraries for GUI and visualization:
+
+### Processing Library
+
+The **Processing** library provides graphical capabilities for creating interactive visual applications.
+
+### Unfolding Maps Library
+
+The **Unfolding Maps** library enables interactive map visualizations and geospatial data display.
+
+### Installation
+
+1. **Download and Install Processing IDE**:
+   - Download from [processing.org](https://processing.org/download)
+   - Install the Processing application
+   - Locate `core.jar` in the Processing installation directory and copy to `lib/`
+
+2. **Get Unfolding Maps**:
+   - **Option A**: Download directly from [unfoldingmaps.org](http://unfoldingmaps.org/)
+   - **Option B**: Use Processing IDE (Sketch → Import Library → Add Library → "Unfolding Maps")
+   - Copy all JAR files to the `lib/` directory
+
+3. **Verify Setup**:
+   - VS Code will automatically detect JARs in `lib/` via `.vscode/settings.json`
+   - Check `lib/README.md` for detailed installation paths and instructions
+
+### Compilation & Execution
+
+When compiling and running from the command line, include the libraries:
+
+```bash
+# Compile
+javac -cp ".:lib/*" Course03_Object_Oriented_Programming_in_Java/module03_.../YourClass.java
+
+# Run
+java -cp ".:lib/*" Course03_Object_Oriented_Programming_in_Java.module03_....YourClass
+```
+
+See `lib/README.md` for detailed instructions.
 
 ## Notes
 

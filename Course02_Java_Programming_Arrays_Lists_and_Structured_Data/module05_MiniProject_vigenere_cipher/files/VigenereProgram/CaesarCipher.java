@@ -1,6 +1,5 @@
 package Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module05_MiniProject_vigenere_cipher.files.VigenereProgram;
 
-import Course02_Java_Programming_Arrays_Lists_and_Structured_Data.module02_cryptography_keeping_information_secret.exercises.CaesarCipherTwo;
 import edu.duke.*;
 
 public class CaesarCipher {
