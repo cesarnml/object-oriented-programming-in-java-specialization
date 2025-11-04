@@ -232,18 +232,18 @@
     - [x] ~~_Module Introduction: Graphical User Interfaces (GUIs) (18 sec)_~~ [2025-11-04]
     - [x] ~~_By the end of this week you will be able to... (10 min)_~~ [2025-11-04]
     - [x] ~~_Project: Module 3 Programming Assignment Overview (1 min)_~~ [2025-11-04]
-    - [ ] Core: Graphical User Interfaces (6 min)
-    - [ ] Core: Using PApplet (11 min)
-    - [ ] When I Struggled: GUIs (27 sec)
-    - [ ] Core: Resizing Images (5 min)
-    - [ ] Core: Colors (8 min)
-    - [ ] When I Struggled: Documentation (1 min)
-    - [ ] Support: Setting up a Canvas (7 min)
-    - [ ] Support: Drawing Happy Face (7 min)
-    - [ ] Support: Loading and Displaying Images (6 min)
-    - [ ] Core: Why Processing? (2 min)
-    - [ ] Support: Using Documentation (7 min)
-    - [ ] In the Real World: Documentation (3 min)
+    - [x] ~~_Core: Graphical User Interfaces (6 min)_~~ [2025-11-04]
+    - [x] ~~_Core: Using PApplet (11 min)_~~ [2025-11-04]
+    - [x] ~~_When I Struggled: GUIs (27 sec)_~~ [2025-11-04]
+    - [x] ~~_Core: Resizing Images (5 min)_~~ [2025-11-04]
+    - [x] ~~_Core: Colors (8 min)_~~ [2025-11-04]
+    - [x] ~~_When I Struggled: Documentation (1 min)_~~ [2025-11-04]
+    - [x] ~~_Support: Setting up a Canvas (7 min)_~~ [2025-11-04]
+    - [x] ~~_Support: Drawing Happy Face (7 min)_~~ [2025-11-04]
+    - [x] ~~_Support: Loading and Displaying Images (6 min)_~~ [2025-11-04]
+    - [x] ~~_Core: Why Processing? (2 min)_~~ [2025-11-04]
+    - [x] ~~_Support: Using Documentation (7 min)_~~ [2025-11-04]
+    - [x] ~~_In the Real World: Documentation (3 min)_~~ [2025-11-04]
     - [ ] Core: Setting up map visualization (5 min)
     - [ ] Core: Adding markers (5 min)
     - [ ] Core: Using live data (11 min)
