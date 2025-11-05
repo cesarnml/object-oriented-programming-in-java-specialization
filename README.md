@@ -268,10 +268,10 @@
     - [x] ~~_By the end of this week, you will be able to... (5 min)_~~ [2025-11-05]
     - [x] ~~_Project: Module 4 Programming Assignment Overview (1 min)_~~ [2025-11-05]
     - [x] ~~_Core: Why use inheritance? (5 min)_~~ [2025-11-05]
-    - [ ] Core: Extends (5 min)
-    - [ ] In the Real World: Inheritance 1 (52 sec)
-    - [ ] Core: Reference vs. Object Type (3 min)
-    - [ ] When I struggled: the "is a" relationship (40 sec)
+    - [x] ~~_Core: Extends (5 min)_~~ [2025-11-05]
+    - [x] ~~_In the Real World: Inheritance 1 (52 sec)_~~ [2025-11-05]
+    - [x] ~~_Core: Reference vs. Object Type (3 min)_~~ [2025-11-05]
+    - [x] ~~_When I struggled: the "is a" relationship (40 sec)_~~ [2025-11-05]
     - [ ] Concept Challenge: References and Objects (4 min)
     - [ ] Core: Visibility Modifiers (4 min)
     - [ ] When I Struggled: Inheritance (45 sec)
