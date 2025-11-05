@@ -289,7 +289,7 @@
     - [x] ~~_Concept Challenge: Polymorphism Part 2 (6 min)_~~ [2025-11-05]
     - [x] ~~_Core: Abstract Classes and Interfaces (5 min)_~~ [2025-11-05]
     - [x] ~~_In the Real World: Inheritance 2 (1 min)_~~ [2025-11-05]
-    - [ ] Project: Module 4 Programming Assignment Walkthrough (7 min)
+    - [x] ~~_Project: Module 4 Programming Assignment Walkthrough (7 min)_~~ [2025-11-05]
     - [ ] Programming Assignment Instructions (3h)
     - [ ] Programming Assignment Quiz (Do programming assignment FIRST) (Graded Assignment • 15 min)
     - [ ] Congratulations and Quiz Answers (10 min)
