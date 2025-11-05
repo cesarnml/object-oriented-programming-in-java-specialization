@@ -265,9 +265,9 @@
     - [x] ~~_Congratulations and quiz answers (10 min)_~~ [2025-11-05]
   - [ ] Module 04 - Inheritance (~5 hours)
     - [x] ~~_Module Introduction: Inheritance and Polymorphism (17 sec)_~~ [2025-11-05]
-    - [ ] By the end of this week, you will be able to... (5 min)
-    - [ ] Project: Module 4 Programming Assignment Overview (1 min)
-    - [ ] Core: Why use inheritance? (5 min)
+    - [x] ~~_By the end of this week, you will be able to... (5 min)_~~ [2025-11-05]
+    - [x] ~~_Project: Module 4 Programming Assignment Overview (1 min)_~~ [2025-11-05]
+    - [x] ~~_Core: Why use inheritance? (5 min)_~~ [2025-11-05]
     - [ ] Core: Extends (5 min)
     - [ ] In the Real World: Inheritance 1 (52 sec)
     - [ ] Core: Reference vs. Object Type (3 min)
@@ -514,6 +514,23 @@ String[] names = new String[100];
   - **Processing**
 
 #### Module 04 - Inheritance (5 hours)
+
+- Learning Outcomes:
+  - Explain the value of **inheritance** as a feature in object oriented programming languages
+  - use the keyword **extends**
+  - Explain the relationship between a **superclass** and a **subclass**
+  - Use **UML Diagrams** to display class hierarchies
+  - Explain an **is-a** relationship between classes
+  - Describe how **Java object construction** occurs from the inside out
+  - Use same-class and **superclass constructors** in a class creation
+  - Create methods which **override** from a superclass
+  - Contrast method **overloading** and method **overriding**
+  - Explain the purpose of **polymorphism**
+  - Step through decisions made at **compile time** and **runtime**
+  - Use **casting** of objects to aid the compiler
+  - Use the keyword **abstract**
+  - Compare and contrast **inheritance of implementation** and **inheritance of interface**
+  - Decide between **Abstract Classes** and **Interfaces**
 
 #### Module 05 - GUIs: Responding to User Events (4 hours)
 
