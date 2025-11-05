@@ -272,23 +272,23 @@
     - [x] ~~_In the Real World: Inheritance 1 (52 sec)_~~ [2025-11-05]
     - [x] ~~_Core: Reference vs. Object Type (3 min)_~~ [2025-11-05]
     - [x] ~~_When I struggled: the "is a" relationship (40 sec)_~~ [2025-11-05]
-    - [ ] Concept Challenge: References and Objects (4 min)
-    - [ ] Core: Visibility Modifiers (4 min)
-    - [ ] When I Struggled: Inheritance (45 sec)
-    - [ ] Core: Object Creation in Java (3 min)
-    - [ ] Core: Compiler Rules for Class Construction (4 min)
-    - [ ] Core: Variable Initialization in a Class Hierarchy (4 min)
-    - [ ] Concept Challenge: Inheritance Constructors 1 (4 min)
-    - [ ] Concept Challenge: Inheritance Constructors 2 (3 min)
-    - [ ] Core: Method Overriding (5 min)
-    - [ ] Core: Introduction to Polymorphism (2 min)
-    - [ ] When I struggled: Polymorphism (56 sec)
-    - [ ] Core: Rules to Follow for Polymorphism (4 min)
-    - [ ] Core: Casting Objects (3 min)
-    - [ ] Concept Challenge: Polymorphism Part 1 (6 min)
-    - [ ] Concept Challenge: Polymorphism Part 2 (6 min)
-    - [ ] Core: Abstract Classes and Interfaces (5 min)
-    - [ ] In the Real World: Inheritance 2 (1 min)
+    - [x] ~~_Concept Challenge: References and Objects (4 min)_~~ [2025-11-05]
+    - [x] ~~_Core: Visibility Modifiers (4 min)_~~ [2025-11-05]
+    - [x] ~~_When I Struggled: Inheritance (45 sec)_~~ [2025-11-05]
+    - [x] ~~_Core: Object Creation in Java (3 min)_~~ [2025-11-05]
+    - [x] ~~_Core: Compiler Rules for Class Construction (4 min)_~~ [2025-11-05]
+    - [x] ~~_Core: Variable Initialization in a Class Hierarchy (4 min)_~~ [2025-11-05]
+    - [x] ~~_Concept Challenge: Inheritance Constructors 1 (4 min)_~~ [2025-11-05]
+    - [x] ~~_Concept Challenge: Inheritance Constructors 2 (3 min)_~~ [2025-11-05]
+    - [x] ~~_Core: Method Overriding (5 min)_~~ [2025-11-05]
+    - [x] ~~_Core: Introduction to Polymorphism (2 min)_~~ [2025-11-05]
+    - [x] ~~_When I struggled: Polymorphism (56 sec)_~~ [2025-11-05]
+    - [x] ~~_Core: Rules to Follow for Polymorphism (4 min)_~~ [2025-11-05]
+    - [x] ~~_Core: Casting Objects (3 min)_~~ [2025-11-05]
+    - [x] ~~_Concept Challenge: Polymorphism Part 1 (6 min)_~~ [2025-11-05]
+    - [x] ~~_Concept Challenge: Polymorphism Part 2 (6 min)_~~ [2025-11-05]
+    - [x] ~~_Core: Abstract Classes and Interfaces (5 min)_~~ [2025-11-05]
+    - [x] ~~_In the Real World: Inheritance 2 (1 min)_~~ [2025-11-05]
     - [ ] Project: Module 4 Programming Assignment Walkthrough (7 min)
     - [ ] Programming Assignment Instructions (3h)
     - [ ] Programming Assignment Quiz (Do programming assignment FIRST) (Graded Assignment • 15 min)
@@ -531,9 +531,115 @@ String[] names = new String[100];
   - Use the keyword **abstract**
   - Compare and contrast **inheritance of implementation** and **inheritance of interface**
   - Decide between **Abstract Classes** and **Interfaces**
+- Visibility modifiers:
+  - `public`
+    - can be accessed by any class in any package
+  - `private`
+    - can be accessed only within the same class
+  - `protected`
+    - can be accessed from same class, same package, or any subclass (even in different packages)
+  - (default/package-private - no keyword)
+    - can be accessed from same class and same package only
+- Object construction rules:
+
+  - **Rule 01**: Every class implicitly extends `Object` if no explicit superclass is declared
+  - **Rule 02**: Every constructor must call either `this(args)` or `super(args)` as its first statement. If omitted, the compiler adds `super()` automatically (which requires the parent class to have a no-argument constructor)
+
+- **Overloading**: Same method name with different parameters in the same class
+- **Overriding**: Subclass redefines inherited method with same signature (name + parameters) and compatible return type
+
+```java
+// OVERLOADING - same class, same name, different parameters
+public class Calculator {
+    public int add(int a, int b) { return a + b; }
+    public double add(double a, double b) { return a + b; }  // Overloaded
+    public int add(int a, int b, int c) { return a + b + c; }  // Overloaded
+}
+
+// OVERRIDING - subclass, same signature as superclass
+public class Shape {
+    public void draw() { }
+}
+
+public class Circle extends Shape {
+    @Override
+    public void draw() { /* Circle-specific drawing */ }  // Override
+}
+```
+
+- What `@Override` Does:
+
+  > Compile-Time Verification: It tells the compiler "I intend this method to override a method from the superclass." The compiler will throw an error if:
+
+  > No matching method exists in the superclass
+  > The method signature doesn't match exactly
+  > You made a typo in the method name
+  > Documentation: It makes your code more readable by clearly indicating which methods are overriding inherited behavior vs. new methods unique to the subclass.
+
+  > Catches Common Mistakes: Prevents accidental method overloading when you intended to override.
+
+- **Polymorphism**: A superclass reference can point to a subclass object. The actual method called is determined at runtime based on the object's type, not the reference's type ("late binding").
+  - **Reference polymorphism**:
+    ```java
+    Shape shape = new Circle();  // Superclass reference to subclass object
+    ```
+  - **Method polymorphism**:
+    ```java
+    Shape shape = new Circle();
+    shape.draw();  // Calls Circle's draw(), not Shape's draw()
+    ```
+- Compile Time Rules:
+  - Compiler **only** knows reference type
+  - Can only look in reference type class for method
+  - Outputs a method signature
+- `Interface` vs `Abstract Class`
+
+  - **Interface**:
+
+    - Defines a contract (required methods) that implementing classes must provide
+    - Cannot have instance fields (only constants: `public static final`)
+    - Cannot have constructors
+    - A class can implement multiple interfaces (multiple inheritance of interface)
+    - Java 8+: Can have default method implementations
+    - Use when: You want to define "what" a class can do, not "how" it does it
+
+  - **Abstract Class**:
+    - Can provide shared implementation code (concrete methods)
+    - Can have instance fields, constructors, and any visibility modifiers
+    - Can define abstract methods that subclasses must implement
+    - A class can extend only ONE abstract class (single inheritance)
+    - Use when: You want subclasses to share common code AND define some required methods
+
+```java
+// Interface - defines contract, no shared implementation
+public interface Drawable {
+    void draw();  // All implementing classes MUST provide their own draw()
+}
+
+// Abstract Class - provides shared code + requires some methods
+public abstract class Shape {
+    protected int x, y;  // Shared fields
+
+    public Shape(int x, int y) {  // Shared constructor
+        this.x = x;
+        this.y = y;
+    }
+
+    public void move(int dx, int dy) {  // Shared implementation
+        this.x += dx;
+        this.y += dy;
+    }
+
+    public abstract double getArea();  // Subclasses MUST implement
+}
+```
 
 #### Module 05 - GUIs: Responding to User Events (4 hours)
 
 #### Module 06 - Searching and Sorting: From Code to Algorithms (8 hours)
 
 ### Course 04 - Data Structures and Performance (41 hours)
+
+```
+
+```
