@@ -234,7 +234,7 @@
     - [x] ~~_Programming Assignment Instructions (5h)_~~ [2025-11-04]
     - [x] ~~_Programming Assignment Quiz (Do programming assignment FIRST) (Graded Assignment • 30 min)_~~ [2025-11-04]
     - [x] ~~_Congratulations and quiz answers (10 min)_~~ [2025-11-04]
-  - [ ] Module 03 - Graphical Output: Creating GUIs and Displaying Data (~8 hours)
+  - [x] ~~_Module 03 - Graphical Output: Creating GUIs and Displaying Data (~8 hours)_~~ [2025-11-05]
     - [x] ~~_Module Introduction: Graphical User Interfaces (GUIs) (18 sec)_~~ [2025-11-04]
     - [x] ~~_By the end of this week you will be able to... (10 min)_~~ [2025-11-04]
     - [x] ~~_Project: Module 3 Programming Assignment Overview (1 min)_~~ [2025-11-04]
@@ -260,11 +260,11 @@
     - [x] ~~_Bonus: Coloring markers (11 min)_~~ [2025-11-04]
     - [x] ~~_Support: ArrayLists and Generics (8 min)_~~ [2025-11-04]
     - [x] ~~_Project: Module 3 Programming Assignment Walkthrough (8 min)_~~ [2025-11-04]
-    - [ ] Programming Assignment Instructions (5h)
-    - [ ] Programming Assignment Quiz (Do programming assignment FIRST) (Graded Assignment • 20 min)
-    - [ ] Congratulations and quiz answers (10 min)
+    - [x] ~~_Programming Assignment Instructions (5h)_~~ [2025-11-05]
+    - [x] ~~_Programming Assignment Quiz (Do programming assignment FIRST) (Graded Assignment • 20 min)_~~ [2025-11-05]
+    - [x] ~~_Congratulations and quiz answers (10 min)_~~ [2025-11-05]
   - [ ] Module 04 - Inheritance (~5 hours)
-    - [ ] Module Introduction: Inheritance and Polymorphism (17 sec)
+    - [x] ~~_Module Introduction: Inheritance and Polymorphism (17 sec)_~~ [2025-11-05]
     - [ ] By the end of this week, you will be able to... (5 min)
     - [ ] Project: Module 4 Programming Assignment Overview (1 min)
     - [ ] Core: Why use inheritance? (5 min)
