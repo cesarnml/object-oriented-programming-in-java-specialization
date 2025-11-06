@@ -309,17 +309,17 @@
     - [ ] Programming Assignment Quiz (Do programming assignment FIRST) (Graded Assignment • 30 min)
     - [ ] Congratulations and Quiz Answers (10 min)
   - [ ] Module 06 - Searching and Sorting: From Code to Algorithms (~7 hours)
-    - [ ] Module Introduction: Searching and Sorting (19 sec)
-    - [ ] By the end of this week, you will be able to... (5 min)
-    - [ ] Project Overview (1 min)
-    - [ ] In the Real World: Searching and Sorting (1 min)
-    - [ ] Core: Linear Search, Part 1 (8 min)
-    - [ ] Core: Linear Search, Part 2 (4 min)
-    - [ ] Core: Binary Search (10 min)
-    - [ ] Core: Binary Search Example (8 min)
-    - [ ] When I Struggled: Search (47 sec)
-    - [ ] Searching Quiz (Practice Assignment • 5 min)
-    - [ ] Core: Introduction to Sorting (7 min)
+    - [x] ~~_Module Introduction: Searching and Sorting (19 sec)_~~ [2025-11-06]
+    - [x] ~~_By the end of this week, you will be able to... (5 min)_~~ [2025-11-06]
+    - [x] ~~_Project Overview (1 min)_~~ [2025-11-06]
+    - [x] ~~_In the Real World: Searching and Sorting (1 min)_~~ [2025-11-06]
+    - [x] ~~_Core: Linear Search, Part 1 (8 min)_~~ [2025-11-06]
+    - [x] ~~_Core: Linear Search, Part 2 (4 min)_~~ [2025-11-06]
+    - [x] ~~_Core: Binary Search (10 min)_~~ [2025-11-06]
+    - [x] ~~_Core: Binary Search Example (8 min)_~~ [2025-11-06]
+    - [x] ~~_When I Struggled: Search (47 sec)_~~ [2025-11-06]
+    - [x] ~~_Searching Quiz (Practice Assignment • 5 min)_~~ [2025-11-06]
+    - [x] ~~_Core: Introduction to Sorting (7 min)_~~ [2025-11-06]
     - [ ] Core: Selection Sort Algorithm (3 min)
     - [ ] Core: Selection Sort Implementation (7 min)
     - [ ] Core: Selection Sort Analysis (5 min)
