@@ -290,22 +290,22 @@
     - [x] ~~_Core: Abstract Classes and Interfaces (5 min)_~~ [2025-11-05]
     - [x] ~~_In the Real World: Inheritance 2 (1 min)_~~ [2025-11-05]
     - [x] ~~_Project: Module 4 Programming Assignment Walkthrough (7 min)_~~ [2025-11-05]
-    - [ ] Programming Assignment Instructions (3h)
+    - [x] ~~_Programming Assignment Instructions (3h)_~~ [2025-11-06]
     - [ ] Programming Assignment Quiz (Do programming assignment FIRST) (Graded Assignment • 15 min)
     - [ ] Congratulations and Quiz Answers (10 min)
   - [ ] Module 05 - GUIs: Responding to User Events (~4 hours 30 min)
-    - [ ] Module Introduction: Responding to User Events (12 sec)
-    - [ ] By the end of this week, you will be able to... (5 min)
-    - [ ] Project: Module 5 Programming Assignment Overview (2 min)
-    - [ ] Core: Introduction to Event Driven Programming (2 min)
-    - [ ] In the Real World: Events (1 min)
-    - [ ] Core: Implementing Events in UnfoldingMaps (4 min)
-    - [ ] Core: Implementing Buttons in UnfoldingMaps (5 min)
-    - [ ] When I Struggled: Buttons and GUIs (59 sec)
-    - [ ] Core: Listener Hierarchy (3 min)
-    - [ ] Events (Practice Assignment • 10 min)
-    - [ ] Project: Module 5 Programming Assignment Walkthrough (6 min)
-    - [ ] Programming Assignment Instructions (3h)
+    - [x] ~~_Module Introduction: Responding to User Events (12 sec)_~~ [2025-11-06]
+    - [x] ~~_By the end of this week, you will be able to... (5 min)_~~ [2025-11-06]
+    - [x] ~~_Project: Module 5 Programming Assignment Overview (2 min)_~~ [2025-11-06]
+    - [x] ~~_Core: Introduction to Event Driven Programming (2 min)_~~ [2025-11-06]
+    - [x] ~~_In the Real World: Events (1 min)_~~ [2025-11-06]
+    - [x] ~~_Core: Implementing Events in UnfoldingMaps (4 min)_~~ [2025-11-06]
+    - [x] ~~_Core: Implementing Buttons in UnfoldingMaps (5 min)_~~ [2025-11-06]
+    - [x] ~~_When I Struggled: Buttons and GUIs (59 sec)_~~ [2025-11-06]
+    - [x] ~~_Core: Listener Hierarchy (3 min)_~~ [2025-11-06]
+    - [x] ~~_Events (Practice Assignment • 10 min)_~~ [2025-11-06]
+    - [x] ~~_Project: Module 5 Programming Assignment Walkthrough (6 min)_~~ [2025-11-06]
+    - [x] ~~_Programming Assignment Instructions (3h)_~~ [2025-11-06]
     - [ ] Programming Assignment Quiz (Do programming assignment FIRST) (Graded Assignment • 30 min)
     - [ ] Congratulations and Quiz Answers (10 min)
   - [ ] Module 06 - Searching and Sorting: From Code to Algorithms (~7 hours)
@@ -637,6 +637,20 @@ public abstract class Shape {
 #### Module 05 - GUIs: Responding to User Events (4 hours)
 
 #### Module 06 - Searching and Sorting: From Code to Algorithms (8 hours)
+
+- Learning Outcomes:
+  - Motivate the importance of search
+  - Write code to perform a **linear search**
+  - Explain and implement the **binary search** algorithm
+  - Explain why **binary search** is better than **linear search**
+  - Define **sorting**
+  - Explain why **sorting** data can be useful
+  - Explain and implement the **selection sort** algorithm
+  - Trace code and describe its high-level function
+  - Describe alternate algorithms for **sorting**
+  - Use pre-defined Java methods to sort
+  - Explain the properties of this built-in sort algorithm
+  - Define and use the **Comparable** interface in Java
 
 ### Course 04 - Data Structures and Performance (41 hours)
 
