@@ -320,16 +320,16 @@
     - [x] ~~_When I Struggled: Search (47 sec)_~~ [2025-11-06]
     - [x] ~~_Searching Quiz (Practice Assignment • 5 min)_~~ [2025-11-06]
     - [x] ~~_Core: Introduction to Sorting (7 min)_~~ [2025-11-06]
-    - [ ] Core: Selection Sort Algorithm (3 min)
-    - [ ] Core: Selection Sort Implementation (7 min)
-    - [ ] Core: Selection Sort Analysis (5 min)
-    - [ ] Concept Challenge: Selection Sort (4 min)
-    - [ ] Core: Mystery Sort (13 min)
-    - [ ] Core: Java's Built-In Sort (4 min)
-    - [ ] Core: Comparable Interface, Revisited (7 min)
-    - [ ] Concept Challenge: Which Sort? (3 min)
-    - [ ] Project: Module 6 Programming Assignment Walkthrough (6 min)
-    - [ ] Programming Assignment Instructions (3h)
+    - [x] ~~_Core: Selection Sort Algorithm (3 min)_~~ [2025-11-06]
+    - [x] ~~_Core: Selection Sort Implementation (7 min)_~~ [2025-11-06]
+    - [x] ~~_Core: Selection Sort Analysis (5 min)_~~ [2025-11-06]
+    - [x] ~~_Concept Challenge: Selection Sort (4 min)_~~ [2025-11-06]
+    - [x] ~~_Core: Mystery Sort (13 min)_~~ [2025-11-06]
+    - [x] ~~_Core: Java's Built-In Sort (4 min)_~~ [2025-11-06]
+    - [x] ~~_Core: Comparable Interface, Revisited (7 min)_~~ [2025-11-06]
+    - [x] ~~_Concept Challenge: Which Sort? (3 min)_~~ [2025-11-06]
+    - [x] ~~_Project: Module 6 Programming Assignment Walkthrough (6 min)_~~ [2025-11-06]
+    - [x] ~~_Programming Assignment Instructions (3h)_~~ [2025-11-06]
     - [ ] Programming Assignment Quiz (Do programming assignment FIRST) (Graded Assignment • 20 min)
     - [ ] Congratulations and quiz answers (10 min)
     - [ ] Optional: Pre-grading Feedback on Programming Assignment Extension (Practice Peer-graded Assignment • 1h)
